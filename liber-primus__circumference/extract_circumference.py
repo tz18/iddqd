@@ -14,6 +14,12 @@ Glyphs: each rune is one glyph. Word/clause separators (- .) are not glyphs.
 Numbers written with separators (e.g. "272-138", base-60 "2M-0w") count as one
 glyph per number; separator-less hex lines count one glyph per character.
 
+Drop caps: many sections open with a large red rune spanning several lines
+(listed in drop_caps.json, produced by detect_drop_caps.py from the images).
+On those lines the cap is the leftmost glyph, so the main output puts the cap
+(once) on the left edge in place of those lines' own first runes. The ring
+that ignores drop caps is kept under "ignoring_drop_caps".
+
 Page numbering: `page` is the index of the rune page in the transcription;
 `image` is the matching file in ../liber-primus__images--full (images 00 and 02
 are the Latin title/chapter pages, which contain no runes).
@@ -74,14 +80,31 @@ def read_pages():
     return pages
 
 
-def ring(rows):
-    top = rows[0]
-    if len(rows) == 1:
+def ring(rows, caps=()):
+    """Clockwise ring of (line, index) positions.
+
+    caps: (line, span) drop caps. A drop cap is the first glyph of `line` and
+    is the leftmost glyph of every line it spans, so those lines contribute the
+    cap (once) to the left edge instead of their own first glyph."""
+    last = len(rows) - 1
+    cover = {}
+    for k, span in caps:
+        for i in range(k, min(k + span, len(rows))):
+            cover[i] = (k, 0)
+    top = [(0, j) for j in range(len(rows[0]))]
+    if last == 0:
         return top, [], [], []
-    mid = rows[1:-1]
-    right = [r[-1] for r in mid]
-    bottom = rows[-1][::-1]
-    left = [r[0] for r in mid][::-1]
+    right = [(i, len(rows[i]) - 1) for i in range(1, last)]
+    bottom = [(last, j) for j in reversed(range(len(rows[last])))]
+    if last in cover and cover[last] != (last, 0):
+        bottom.append(cover[last])  # cap reaches the bottom-left corner
+    seen = set(top + right + bottom)
+    left = []
+    for i in range(last - 1, 0, -1):
+        pos = cover.get(i, (i, 0))
+        if pos not in seen:
+            left.append(pos)
+            seen.add(pos)
     return top, right, bottom, left
 
 
@@ -89,44 +112,72 @@ def latin(glyphs):
     return '-'.join(LATIN.get(g, g) for g in glyphs)
 
 
+def describe(rows, caps):
+    sides = [[rows[i][j] for i, j in side] for side in ring(rows, caps)]
+    perim = sum(sides, [])
+    runes_only = all(g in LATIN for g in perim)
+    fmt = (lambda x: ''.join(x)) if runes_only else (lambda x: x)
+    d = {k: fmt(v) for k, v in zip(('top', 'right', 'bottom', 'left'), sides)}
+    d.update({
+        'circumference': fmt(perim),
+        'length': len(perim),
+        'latin': latin(perim),
+        'gematria_sum': sum(PRIME.get(g, 0) for g in perim),
+    })
+    return d, runes_only
+
+
+def load_drop_caps():
+    path = os.path.join(HERE, 'drop_caps.json')
+    caps = {}
+    if os.path.exists(path):
+        with open(path) as f:
+            for c in json.load(f):
+                caps.setdefault(c['page'], []).append((c['line'], c['span']))
+    return caps
+
+
+def write_txt(name, header, entries):
+    with open(os.path.join(HERE, name), 'w', encoding='utf-8') as f:
+        f.write(header + '\n')
+        f.write('page  image   lines  len  top | right | bottom | left\n')
+        for p, d in entries:
+            parts = [d['top'], d['right'], d['bottom'], d['left']]
+            if p['contains_non_runes']:
+                parts = [' '.join(x) for x in parts]
+            f.write('%-5d %-7s %-6d %-4d %s\n' % (
+                p['page'], p['image'], p['lines'], d['length'], ' | '.join(parts)))
+
+
 def main():
+    drop_caps = load_drop_caps()
     out = []
     for n, rows in enumerate(read_pages()):
-        top, right, bottom, left = ring(rows)
-        perim = top + right + bottom + left
-        runes_only = all(g in LATIN for g in perim)
-        out.append({
-            'page': n,
-            'image': image_for(n),
-            'lines': len(rows),
-            'top': ''.join(top) if runes_only else top,
-            'right': ''.join(right) if runes_only else right,
-            'bottom': ''.join(bottom) if runes_only else bottom,
-            'left': ''.join(left) if runes_only else left,
-            'circumference': ''.join(perim) if runes_only else perim,
-            'length': len(perim),
-            'latin': latin(perim),
-            'gematria_sum': sum(PRIME.get(g, 0) for g in perim),
-            'contains_non_runes': not runes_only,
-            # raw columns (every line, top -> bottom) for recombining differently
-            'first_column': [r[0] for r in rows],
-            'last_column': [r[-1] for r in rows],
-        })
+        caps = drop_caps.get(n, [])
+        visual, runes_only = describe(rows, caps)
+        plain, _ = describe(rows, [])
+        p = {'page': n, 'image': image_for(n), 'lines': len(rows),
+             'drop_caps': [{'line': k, 'span': s, 'rune': rows[k][0]} for k, s in caps]}
+        p.update(visual)
+        p['contains_non_runes'] = not runes_only
+        p['ignoring_drop_caps'] = plain
+        # raw columns (every line, top -> bottom) for recombining differently
+        p['first_column'] = [r[0] for r in rows]
+        p['last_column'] = [r[-1] for r in rows]
+        out.append(p)
 
     with open(os.path.join(HERE, 'circumference.json'), 'w', encoding='utf-8') as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
 
-    with open(os.path.join(HERE, 'circumference.txt'), 'w', encoding='utf-8') as f:
-        f.write('Liber Primus page circumferences, clockwise from top-left: '
-                'top | right | bottom | left\n')
-        f.write('page  image   lines  len  circumference\n')
-        for p in out:
-            parts = [p['top'], p['right'], p['bottom'], p['left']]
-            if p['contains_non_runes']:
-                parts = [' '.join(x) for x in parts]
-            f.write('%-5d %-7s %-6d %-4d %s\n' % (
-                p['page'], p['image'], p['lines'], p['length'], ' | '.join(parts)))
-    print('wrote %d pages' % len(out))
+    write_txt('circumference.txt',
+              'Liber Primus page circumferences as they appear on the page '
+              '(drop caps fill the left edge of the lines they span), clockwise '
+              'from top-left', [(p, p) for p in out])
+    write_txt('circumference_ignoring_drop_caps.txt',
+              'Liber Primus page circumferences from the transcription line '
+              'starts, ignoring drop caps, clockwise from top-left',
+              [(p, p['ignoring_drop_caps']) for p in out])
+    print('wrote %d pages (%d with drop caps)' % (len(out), len(drop_caps)))
 
 
 if __name__ == '__main__':
