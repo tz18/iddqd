@@ -639,7 +639,7 @@ function render() {
 function eachWordPart(P, fn) { const seen = new Set(); for (const gi of P.glyphs) { const w = W[G[gi].word]; if (seen.has(w.id)) continue; seen.add(w.id); w.parts.forEach(p => { if (p.pi === S.page) fn(w, p); }); } }
 function partRect(p, cls, pad) { return `<rect class="${cls}" x="${p.x0 - pad}" y="${p.y0 - pad}" width="${p.x1 - p.x0 + 2 * pad}" height="${p.y1 - p.y0 + 2 * pad}" rx="8"/>`; }
 function chip(cx, cy, val, cls, right) {
-  const s = String(val), w = 22 + s.length * 19, h = 44, x = right ? cx - w : cx - w / 2;
+  const s = (S.basis === "p" ? "pt " : "ct ") + val, w = 22 + s.length * 19, h = 44, x = right ? cx - w : cx - w / 2;
   return `<g class="chip ${cls}" pointer-events="none"><rect x="${x}" y="${cy - h / 2}" width="${w}" height="${h}" rx="8"/><text x="${x + w / 2}" y="${cy}" font-size="30">${esc(s)}</text></g>`;
 }
 function drawHover() {
@@ -888,7 +888,16 @@ function bindSeg(attr, key, after) {
 function init(data) {
   build(data); decipherAll(); pageOptions();
   $("loading").hidden = true; sheet.hidden = false;
-  bindSeg("show", "show"); bindSeg("gran", "gran");
+  // picking a GP overlay also sets which text the clause/line sums use
+  bindSeg("show", "show", () => {
+    const b = S.show === "plainGp" || S.show === "plain" ? "p" : S.show === "gp" ? "c" : null;
+    if (b && b !== S.basis) {
+      S.basis = b;
+      document.querySelectorAll("[data-basis]").forEach(x => x.setAttribute("aria-pressed", String(S.basis === x.dataset.basis)));
+      if ($("findQ").value) runFind();
+    }
+  });
+  bindSeg("gran", "gran");
   bindSeg("tool", "tool", () => { stage.classList.toggle("draw", S.tool === "draw"); });
   bindSeg("basis", "basis", () => { recomputeWords(); if ($("findQ").value) runFind(); });
   stage.classList.toggle("draw", S.tool === "draw");
