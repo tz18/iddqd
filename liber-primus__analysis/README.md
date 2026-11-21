@@ -19,3 +19,15 @@ clause end is `.`, and a line break does not end a word. "Unsolved" means
   its fit to the model "no self-transitions, otherwise proportional to rune
   frequency".
 - `rune-transitions.html`: the state-machine diagram and heatmap.
+- `doublet_positions.py`: where doublets fall. Checks position mod m (2–60),
+  the gaps between doublets, and whether they sit at line breaks, word gaps or
+  in particular segments.
+- `isomorphs_autokey.py`: isomorph counts compared with shuffles that keep rune
+  frequencies and the doublet shortage. Also checks the ciphertext-autokey
+  difference streams c[i] − c[i−k] for k = 1–40 (IoC, periodic columns, and
+  after removing prime, totient and Fibonacci streams).
+- `long_isomorph.py`: the 17-rune isomorph on pages 27/67 and how often
+  shuffled text produces one.
+- `rune_selection.py`: rune-level chaffing. Checks the IoC of runes picked by
+  position rules (mod m, primes, Fibonacci, squares, word starts and ends), and
+  solved-text word sums used as positions or keys.
