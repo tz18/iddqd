@@ -36,3 +36,5 @@ clause end is `.`, and a line break does not end a word. "Unsolved" means
 - `rsa_modes.py`: an RSA-style exponent permutation on single runes, chained like CBC/CFB, for every valid exponent. Gives each one's predicted doublet rate on English and the IoC of its decryption.
 - `fixed_zero_layers.py`: ciphertext autokey over an inner layer that keeps 0 fixed (multiply by a key, or raise to a power). Undone with d = c[i] − c[i−1], then divide by the key or take the root.
 - `rotate_vig13_autokey.py`: shift so EA becomes F, then a period-13 Vigenère that skips F, then ciphertext autokey. Checks the column IoC of the autokey-removed stream with zeros dropped, for periods 1–40.
+- `pages_54_55.py`: the period-13 test on single page pairs, under all three page numberings, compared with every other page pair and with shuffles.
+- `solve_p69_70.py`: solves the period-13 key on pages 69–70 (unsolved-folder images 54–55) by frequency fitting, in mod-29 and mod-28 versions, and prints the decryption.
