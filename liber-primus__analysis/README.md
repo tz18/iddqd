@@ -41,3 +41,4 @@ clause end is `.`, and a line break does not end a word. "Unsolved" means
 - `pair_parity.py`: a Playfair-style pair test that tolerates skipped runes. Takes each rune (or none) as an unencrypted skip symbol and checks whether gaps between doublets are even.
 - `exact_repeats.py`: exact repeated rune sequences (which the isomorph search skipped). Finds ᛞᛄᚢ·ᛒᛖᛁ (DJU BEI) on p42 and p70.
 - `repeated_words.py`: where DJU BEI sits in its sections, and whether whole words or adjacent word pairs repeat more than chance.
+- `crib_djubei.py`: cribs DJU BEI. Searches key-stream families (any offset, three position systems, either sign, with or without atbash) for settings that decrypt both copies to real words; lists implied keys for common 3+3 phrases; checks running keys from the solved translations.
