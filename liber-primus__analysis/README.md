@@ -39,3 +39,5 @@ clause end is `.`, and a line break does not end a word. "Unsolved" means
 - `pages_54_55.py`: the period-13 test on single page pairs, under all three page numberings, compared with every other page pair and with shuffles.
 - `solve_p69_70.py`: solves the period-13 key on pages 69–70 (unsolved-folder images 54–55) by frequency fitting, in mod-29 and mod-28 versions, and prints the decryption.
 - `pair_parity.py`: a Playfair-style pair test that tolerates skipped runes. Takes each rune (or none) as an unencrypted skip symbol and checks whether gaps between doublets are even.
+- `exact_repeats.py`: exact repeated rune sequences (which the isomorph search skipped). Finds ᛞᛄᚢ·ᛒᛖᛁ (DJU BEI) on p42 and p70.
+- `repeated_words.py`: where DJU BEI sits in its sections, and whether whole words or adjacent word pairs repeat more than chance.
