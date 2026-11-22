@@ -31,3 +31,4 @@ clause end is `.`, and a line break does not end a word. "Unsolved" means
 - `rune_selection.py`: rune-level chaffing. Checks the IoC of runes picked by
   position rules (mod m, primes, Fibonacci, squares, word starts and ends), and
   solved-text word sums used as positions or keys.
+- `progressive_key.py`: rotor-style keys that step by a constant. Compares the unsolved ciphertext differences with plaintext differences from the published translations.
