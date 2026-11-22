@@ -32,3 +32,4 @@ clause end is `.`, and a line break does not end a word. "Unsolved" means
   position rules (mod m, primes, Fibonacci, squares, word starts and ends), and
   solved-text word sums used as positions or keys.
 - `progressive_key.py`: rotor-style keys that step by a constant. Compares the unsolved ciphertext differences with plaintext differences from the published translations.
+- `exponent_cipher.py`: "e seeks d". Tries exponent (c^(1/e) mod 29) and multiplier (c/e mod 29) ciphers where e comes from varying streams: previous rune, primes, word GP sums, solved-text word sums.
