@@ -52,3 +52,6 @@ clause end is `.`, and a line break does not end a word. "Unsolved" means
 - `totient_mask.py`: checks whether a book key hidden under a totient or prime stream would show once the stream is subtracted. Tries offsets 0–2999, three restart schemes and both signs, on the raw and autokey-removed text.
 - `sim_book_totient_swap_autokey.py`: simulates book key → totient → swap F with the least frequent rune → ciphertext autokey. Reports the doublet rate it produces and whether the totient-subtraction scan would still expose the book.
 - `modern_fingerprints.py`: fingerprints of non-classical sources. Checks for byte-to-rune conversion artifacts in the step values, and human-randomness signs (repeats two or three places apart, steps to the next rune in alphabet order).
+- `boundary_resets.py`: checks for cipher state resets at section, page, paragraph and line starts (first-rune distribution; repeat rate across the boundary).
+- `word_position.py`: rune distribution by position in the word, and at line starts.
+- `line_breaks.py`: runes at line breaks that split a word. The excess (EA, M, D…) tracks glyph width (from `glyph_widths.json`), so it comes from typesetting.
