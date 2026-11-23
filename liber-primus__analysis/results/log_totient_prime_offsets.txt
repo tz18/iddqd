@@ -1,0 +1,1 @@
+totient/prime offsets    tests   72000  best   7.52 (doublets) at totient|page|off2853|raw|+   control best [8.86]   [631s]

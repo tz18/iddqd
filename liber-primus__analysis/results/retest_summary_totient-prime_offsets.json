@@ -1,0 +1,11 @@
+{
+ "totient/prime offsets": {
+  "tests": 72000,
+  "best": 7.519151266694775,
+  "best_setting": "totient|page|off2853|raw|+",
+  "measure": "doublets",
+  "control_best": [
+   8.855130897801379
+  ]
+ }
+}
