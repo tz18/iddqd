@@ -46,3 +46,5 @@ clause end is `.`, and a line break does not end a word. "Unsolved" means
 - `convolution.py`: tries every short linear filter mod 29 (kernels up to length 4, which covers plain and recursive convolutions such as autokey) to see whether any recovers English-like text. Includes a check that it does recover a filtered English sample.
 - `two_d.py`: checks for 2D structure. Measures repeat rates at every distance 1–300 in reading order, repeats between runes vertically and diagonally adjacent on the printed page (from the glyph boxes), and runes per line.
 - `palindromes.py`: word-length repeats, word-length isomorphs and palindromes (compared with shuffled word order); rune palindromes and reversed isomorphs (compared with shuffles that keep the doublet shortage).
+- `depth_search.py`: depth search on the autokey-removed stream. Slides every unsolved page against every other (and the whole stream against itself) at every offset, counting matches; scores the best alignments under subtraction, addition, division and XOR.
+- `depth_null.py`: exact binomial p-values for the depth search, with the identical search on shuffled pages as a control.
