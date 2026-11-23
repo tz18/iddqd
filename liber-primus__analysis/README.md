@@ -55,3 +55,4 @@ clause end is `.`, and a line break does not end a word. "Unsolved" means
 - `boundary_resets.py`: checks for cipher state resets at section, page, paragraph and line starts (first-rune distribution; repeat rate across the boundary).
 - `word_position.py`: rune distribution by position in the word, and at line starts.
 - `line_breaks.py`: runes at line breaks that split a word. The excess (EA, M, D…) tracks glyph width (from `glyph_widths.json`), so it comes from typesetting.
+- `jpeg_forensics.py`: compares JPEG encoder settings and metadata (colour mode, quantization tables, ICC profile, appended data) for solved and unsolved pages, and decodes the data appended to `05.jpg`.
