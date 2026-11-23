@@ -1,0 +1,12 @@
+{
+ "zero-key keystreams": {
+  "tests": 768,
+  "best": 36.91745073575123,
+  "best_setting": "IDEA-OFB|5bit|whole|off0|autokey removed|+",
+  "measure": "periodic IoC",
+  "control_best": [
+   5.68066401291217,
+   6.024717395464625
+  ]
+ }
+}

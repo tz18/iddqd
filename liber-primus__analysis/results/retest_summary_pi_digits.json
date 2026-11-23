@@ -1,0 +1,12 @@
+{
+ "pi digits": {
+  "tests": 3200,
+  "best": 6.38472852674459,
+  "best_setting": "2pi10|whole|off196|autokey removed|-",
+  "measure": "unigram",
+  "control_best": [
+   6.9991081587643755,
+   6.6772921428941965
+  ]
+ }
+}

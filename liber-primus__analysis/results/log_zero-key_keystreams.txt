@@ -1,0 +1,1 @@
+zero-key keystreams      tests     768  best  36.92 (periodic IoC) at IDEA-OFB|5bit|whole|off0|autokey removed|+   control best [5.68, 6.02]   [12s]

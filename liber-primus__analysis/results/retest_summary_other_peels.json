@@ -1,0 +1,12 @@
+{
+ "other peels": {
+  "tests": 906,
+  "best": 42.79213157169015,
+  "best_setting": "fixedzero mul|position+1",
+  "measure": "periodic IoC",
+  "control_best": [
+   41.901327228512734,
+   42.926545539203744
+  ]
+ }
+}

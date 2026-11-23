@@ -1,0 +1,5 @@
+# in progress; committed when the runs finish
+retest_totient-prime_offsets.csv.gz
+retest_wisdom_key.csv.gz
+log_totient_prime_offsets.txt
+log_wisdom_key.txt
