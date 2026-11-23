@@ -48,3 +48,4 @@ clause end is `.`, and a line break does not end a word. "Unsolved" means
 - `palindromes.py`: word-length repeats, word-length isomorphs and palindromes (compared with shuffled word order); rune palindromes and reversed isomorphs (compared with shuffles that keep the doublet shortage).
 - `depth_search.py`: depth search on the autokey-removed stream. Slides every unsolved page against every other (and the whole stream against itself) at every offset, counting matches; scores the best alignments under subtraction, addition, division and XOR.
 - `depth_null.py`: exact binomial p-values for the depth search, with the identical search on shuffled pages as a control.
+- `running_key_stats.py`: simulates an English running key (a book) on English plaintext, mod 29 and mod 28, and compares its IoC excess with the unsolved text and the autokey-removed stream.
