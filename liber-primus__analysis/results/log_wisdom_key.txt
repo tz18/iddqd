@@ -1,0 +1,1 @@
+wisdom key               tests  157398  best   8.30 (lag repeats) at mod28+1|off1644|autokey removed|-   control best [8.03]   [1372s]

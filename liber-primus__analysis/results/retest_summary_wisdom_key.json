@@ -1,0 +1,11 @@
+{
+ "wisdom key": {
+  "tests": 157398,
+  "best": 8.300648356527695,
+  "best_setting": "mod28+1|off1644|autokey removed|-",
+  "measure": "lag repeats",
+  "control_best": [
+   8.028229092104755
+  ]
+ }
+}
