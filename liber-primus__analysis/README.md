@@ -73,3 +73,4 @@ clause end is `.`, and a line break does not end a word. "Unsolved" means
 - `skip_search_54_55.py`: reproduces the solvers' period-13 skip search on unsolved-folder pages 54–55 (pages 69–70 here), with controls. Without skips the period-13 column IoC is 1.379: p ≈ 0.0005 against shuffles, and the highest of 53 page pairs. Searching all pairs and periods 2–40, though, it is within chance.
 - `p69_70_period13.py`: FIRFUMFERENFE and a frequency-solved period-13 key on pages 69–70, plus a per-column breakdown. No English.
 - `period13_skip_model.py`: fits a period-13 key with skips by alternating best path and key estimates, on pages 68–70. Result (IoC 1.33) is within the shuffled control (max 1.35).
+- `period_scan_null.py`: proper null for the period scan. Pages 69–70 at period 13 (pre-specified): z = 4.05, p = 0.0002. Searching 53 page pairs at fixed period 13: about p = 0.011. Searching all pairs and periods 2–40: z = 2.08, p = 0.055.
