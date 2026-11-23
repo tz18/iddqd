@@ -57,3 +57,5 @@ clause end is `.`, and a line break does not end a word. "Unsolved" means
 - `line_breaks.py`: runes at line breaks that split a word. The excess (EA, M, D…) tracks glyph width (from `glyph_widths.json`), so it comes from typesetting.
 - `jpeg_forensics.py`: compares JPEG encoder settings and metadata (colour mode, quantization tables, ICC profile, appended data) for solved and unsolved pages, and decodes the data appended to `05.jpg`.
 - `lp2_bytes.py`: byte-level comparison within the LP2 batch. Compares An End and Parable (73–74) with the 56 unsolved pages: header bytes, Huffman tables, how the image data ends, bits per pixel, and identity with the unsolved-folder copies.
+- `apostrophes.py` (output `apostrophes.json`): finds apostrophe and quote marks in the scans, which the transcription omits. The unsolved text has 4 in-word apostrophes, contractions shaped 3+1 or 2+1 (DON'T on solved p12 confirms the convention), and 9 quote marks.
+- `edit_traces.py`, `edit_gaps.py`: look for traces of post-layout edits (spacing, alignment, glyph shape, gaps between runes). Gaps are 0–8 px throughout, with no traces of edits.
