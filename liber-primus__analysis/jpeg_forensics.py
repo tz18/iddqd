@@ -30,3 +30,7 @@ b = open(os.path.join(IMG, '05.jpg'), 'rb').read(); e = end_of_image(b); tail = 
 m = re.match(rb'([\n\r]*)([0-9a-fA-F]+)', tail); hx = m.group(2); rest = tail[len(m.group(1)) + len(hx):]
 print('\n05.jpg appended text (hex, reversed):'); print(binascii.unhexlify(hx[::-1][: len(hx) // 2 * 2]).decode())
 print('05.jpg appended binary equals the image bytes reversed:', rest == b[:e][::-1])
+# 10.jpg: its appended data is exactly 11.jpg + 12.jpg + 13.jpg concatenated
+b = open(os.path.join(IMG, '10.jpg'), 'rb').read(); parts = [open(os.path.join(IMG, f), 'rb').read() for f in ('11.jpg', '12.jpg', '13.jpg')]
+e = len(b) - sum(map(len, parts))
+print('10.jpg appended data == 11.jpg + 12.jpg + 13.jpg:', b[e:] == b''.join(parts) and end_of_image(b) == e)
