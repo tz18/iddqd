@@ -1,0 +1,13 @@
+Cicada key fingerprint 6D854CD7933322A601C3286D181F01E57A35090F | RSA 4096 bits, e = 65537
+sig v4 type 0x1 (text) pubalg 1 hash 10 (SHA-512); s has 4096 bits; hash prefix 16f3
+s^e mod n is PKCS#1 v1.5 padding: True | SHA-512 DigestInfo: True
+  signed hash: 16f35f83912dc977c33fc6064528e8ea... | matches prefix True
+  message text reproduces the hash: 'Beware false paths.  Always verify PGP signature from 7A35090F.\n\n3301\n'
+
+2. s as a private exponent: x^(e*s) == x mod n ? [False, False, False]
+   gcd(s, n) = 1 (1 = shares no factor with the modulus)
+
+3. signature as LP key (full model: IoC, struct; random control):
+   bytes mod 29                   IoC 1.0022 struct 4.52 | random 1.0019 / 6.91
+   base-29 digits                 IoC 1.0018 struct 4.18 | random 1.0018 / 4.61
+   whole sig packet bytes mod 29  IoC 1.0020 struct 4.34 | random 1.0015 / 4.69

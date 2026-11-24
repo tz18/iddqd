@@ -1,0 +1,22 @@
+141 distinct sentences; 2978 distinct word windows (k=4..10)
+k= 4 words: real  1325 | shuffled mean   1352.4 sd   56.6  z -0.48
+k= 5 words: real   191 | shuffled mean    188.7 sd   18.5  z  0.13
+k= 6 words: real    31 | shuffled mean     28.0 sd    5.1  z  0.59
+k= 7 words: real     2 | shuffled mean      3.9 sd    2.5  z -0.73
+k= 8 words: real     0 | shuffled mean      0.5 sd    0.9  z -0.52
+k= 9 words: real     0 | shuffled mean      0.1 sd    0.3  z -0.20
+k=10 words: real     0 | shuffled mean      0.0 sd    0.0  z  0.00
+
+longest real matches:
+  7 words at unsolved word 1823 (page 48): THREE BEHAVIORS WHICH CAUSE THE LOSS OF   [LP solved]
+  7 words at unsolved word 2501 (page 60): THREE MAGIC SQUARES AND THE URL TO   [signed 2014 10.txt]
+  6 words at unsolved word 1001 (page 33): NOT AN EASY TRIP BUT FOR   [LP solved]
+  6 words at unsolved word 1619 (page 44): FIND THEIR WAY HERE IT IS   [LP solved]
+  6 words at unsolved word 1105 (page 35): ALONG THE WAY YOU WILL FIND   [LP solved]
+  6 words at unsolved word 728 (page 28): ONLY THROUGH GOING WITHIN THAT WE   [LP solved]
+  6 words at unsolved word 710 (page 28): YOU ARE THAT IS ONLY WHAT   [LP solved]
+  6 words at unsolved word 1001 (page 33): THAT IS ONLY WHAT YOU ARE   [LP solved]
+  6 words at unsolved word 407 (page 22): THAT IS WHAT YOU DO NOT   [LP solved]
+  6 words at unsolved word 2664 (page 63): WHAT YOU DO NOT WHO YOU   [LP solved]
+  6 words at unsolved word 844 (page 31): NOT WHO YOU ARE REPLIED THE   [LP solved]
+  6 words at unsolved word 1143 (page 35): NOT WHO YOU ARE REPLIED THE   [LP solved]

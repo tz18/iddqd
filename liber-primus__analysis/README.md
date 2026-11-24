@@ -83,3 +83,15 @@ Cipher-agnostic crib: slides every clause (>= 5 words) of Blake's *The Marriage 
 (`sources/`, the text Cicada used in 2012) along the unsolved word-length sequence, allowing EA/EO/IA/IO etc.
 as one or two runes. Result: 3 hits for 5-word clauses vs 4.9 expected from shuffled word orders (p 0.77),
 none for 6+ words. No sign the unsolved pages quote MHH verbatim.
+
+## pgp_signature_key.py
+The 2017-04-04 "Beware false paths" signature (`sources/pgp/`), with Cicada's key 7A35090F from keyserver.ubuntu.com.
+s^e mod n is valid PKCS#1 v1.5 + SHA-512 DigestInfo, and the hash matches the clearsigned text exactly
+(`'Beware false paths.  Always verify PGP signature from 7A35090F.\n\n3301\n'`): the signature is genuine and its
+512 bytes are fully determined by the signing process. s is not a usable private exponent (x^(e*s) != x).
+As an LP key (bytes mod 29, base-29 digits, whole packet) it scores at the random-key level.
+
+## phrase_crib.py
+Generalised word-length crib: every 4-10 word window of the solved LP text and of Cicada's signed messages
+(2012-2014 archive, 2014 OutGuess messages, 2017), 2,978 windows, slid along the unsolved word lengths. Counts
+match shuffled-order nulls at every k (z between -0.7 and +0.6); no match longer than 7 words. No verbatim reuse.
