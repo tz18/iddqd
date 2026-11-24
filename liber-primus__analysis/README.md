@@ -77,3 +77,9 @@ clause end is `.`, and a line break does not end a word. "Unsolved" means
 - `p69_70_columns.py`: per-column period-13 IoC on pages 69–70, and an odd/even contrast test. Strong columns are 2, 9, 11 and 13 (counted from the first difference). The odd/even difference is z = 0.9, not significant without skips.
 - `unreasonable.py`: "do four unreasonable things each day" as irrational keys. Digits of πr/2 for 18 values of r (base 10 and 29, with and without the integer part), r per page, and the four irrationals π, e, √2, φ summed or cycled. 82 keys, all at control level (best structure 6.99 against best-of-~80 random replicates of 6.2–7.8).
 - Reruns after the s+k fix (`results/rerun_add_*.txt`): nothing changes. Totient/prime with s+k scores 5.50 structure (z = 2.4 against its own best-of-160 null), chance among about 24 candidates.
+
+## blake_wordlength_crib.py
+Cipher-agnostic crib: slides every clause (>= 5 words) of Blake's *The Marriage of Heaven and Hell*
+(`sources/`, the text Cicada used in 2012) along the unsolved word-length sequence, allowing EA/EO/IA/IO etc.
+as one or two runes. Result: 3 hits for 5-word clauses vs 4.9 expected from shuffled word orders (p 0.77),
+none for 6+ words. No sign the unsolved pages quote MHH verbatim.
