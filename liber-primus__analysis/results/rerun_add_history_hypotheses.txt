@@ -1,0 +1,89 @@
+key                                                IoC  struct | control (random key of same length/range): IoC / struct
+1 solved plaintext                              1.0015    4.78 |  1.0024 /  4.24
+1 solved plaintext reversed                     1.0017    4.23 |  1.0020 /  4.42
+2 _560.00 skip1 mod29                           1.0017    5.16 |  1.0014 /  3.69
+2 _560.00 skip2 mod29                           1.0013    3.64 |  1.0012 /  5.53
+2 _560.00 skip3 mod29                           1.0017    4.69 |  1.0015 /  5.25
+2 _560.00 skip4 mod29                           1.0013    5.99 |  1.0016 /  6.07
+2 _560.00 skip5 mod29                           1.0023    4.09 |  1.0014 /  4.23
+2 _560.00 skip6 mod29                           1.0024    4.97 |  1.0018 /  3.94
+2 _560.00 skip7 mod29                           1.0022    5.07 |  1.0016 /  5.42
+2 _560.00 skip8 mod29                           1.0022    4.98 |  1.0027 /  4.82
+2 _560.00 base29 chunks8                        1.0017    4.97 |  1.0016 /  4.42
+2 _560.00 base29 chunks16                       1.0016    5.16 |  1.0017 /  3.22
+2 _560.00 base29 chunks32                       1.0018    4.61 |  1.0016 /  4.51
+2 560.17 skip1 mod29                            1.0010    4.02 |  1.0017 /  5.52
+2 560.17 skip2 mod29                            1.0020    3.69 |  1.0016 /  4.32
+2 560.17 skip3 mod29                            1.0015    5.53 |  1.0016 /  4.32
+2 560.17 skip4 mod29                            1.0020    5.90 |  1.0015 /  3.68
+2 560.17 skip5 mod29                            1.0015    4.52 |  1.0014 /  4.32
+2 560.17 skip6 mod29                            1.0021    4.43 |  1.0022 /  4.78
+2 560.17 skip7 mod29                            1.0023    5.15 |  1.0017 /  4.87
+2 560.17 skip8 mod29                            1.0021    4.34 |  1.0016 /  4.32
+2 560.17 base29 chunks8                         1.0018    4.42 |  1.0012 /  3.68
+2 560.17 base29 chunks16                        1.0018    4.42 |  1.0013 /  3.22
+2 560.17 base29 chunks32                        1.0019    4.33 |  1.0016 /  3.31
+2 560.13@64167 skip1 mod29                      1.0012    4.78 |  1.0024 /  4.26
+2 560.13@64167 skip2 mod29                      1.0016    3.97 |  1.0017 /  4.70
+2 560.13@64167 skip3 mod29                      1.0019    3.86 |  1.0020 /  5.26
+2 560.13@64167 skip4 mod29                      1.0015    5.15 |  1.0016 /  4.89
+2 560.13@64167 skip5 mod29                      1.0022    5.24 |  1.0020 /  4.05
+2 560.13@64167 skip6 mod29                      1.0012    4.69 |  1.0017 /  4.60
+2 560.13@64167 skip7 mod29                      1.0025    4.51 |  1.0024 /  4.25
+2 560.13@64167 skip8 mod29                      1.0020    5.32 |  1.0018 /  4.32
+2 560.13@64167 base29 chunks8                   1.0024    4.32 |  1.0019 /  4.23
+2 560.13@64167 base29 chunks16                  1.0016    3.97 |  1.0017 /  3.96
+2 560.13@64167 base29 chunks32                  1.0021    4.34 |  1.0017 /  6.16
+2 761.mp3 skip1 mod29                           1.0015    4.42 |  1.0023 /  4.70
+2 761.mp3 skip2 mod29                           1.0016    4.32 |  1.0015 /  3.68
+2 761.mp3 skip3 mod29                           1.0019    4.78 |  1.0016 /  6.17
+2 761.mp3 skip4 mod29                           1.0012    3.58 |  1.0014 /  3.60
+2 761.mp3 skip5 mod29                           1.0019    3.76 |  1.0015 /  4.15
+2 761.mp3 skip6 mod29                           1.0016    5.33 |  1.0015 /  3.86
+2 761.mp3 skip7 mod29                           1.0024    4.55 |  1.0022 /  4.57
+2 761.mp3 skip8 mod29                           1.0013    4.66 |  1.0015 /  4.98
+2 761.mp3 base29 chunks8                        1.0021    6.57 |  1.0025 /  4.52
+2 761.mp3 base29 chunks16                       1.0018    5.24 |  1.0012 /  4.15
+2 761.mp3 base29 chunks32                       1.0024    4.51 |  1.0017 /  3.86
+2 Interconnectedness.mp3 skip1 mod29            1.0022    3.89 |  1.0016 /  4.41
+2 Interconnectedness.mp3 skip2 mod29            1.0016    4.24 |  1.0019 /  4.89
+2 Interconnectedness.mp3 skip3 mod29            1.0019    5.20 |  1.0015 /  4.32
+2 Interconnectedness.mp3 skip4 mod29            1.0016    3.59 |  1.0019 /  4.51
+2 Interconnectedness.mp3 skip5 mod29            1.0017    4.60 |  1.0016 /  4.24
+2 Interconnectedness.mp3 skip6 mod29            1.0016    4.61 |  1.0023 /  4.42
+2 Interconnectedness.mp3 skip7 mod29            1.0017    5.62 |  1.0019 /  3.85
+2 Interconnectedness.mp3 skip8 mod29            1.0019    3.68 |  1.0024 /  4.82
+2 Interconnectedness.mp3 base29 chunks8         1.0014    4.68 |  1.0014 /  3.68
+2 Interconnectedness.mp3 base29 chunks16        1.0017    3.97 |  1.0025 /  5.40
+2 Interconnectedness.mp3 base29 chunks32        1.0016    4.05 |  1.0019 /  4.43
+3 Valete PS decimal                             1.0020    4.52 |  1.0020 /  4.87
+3 Valete PS base29                              1.0022    3.98 |  1.0021 /  5.43
+3 Valete PS AES(sha256)                         1.0018    4.69 |  1.0016 /  3.89
+4 primes from 1033 (174th)                      1.0023    4.27 |  1.0027 /  4.77
+4 totient from 1033 (174th)                     1.0016    4.06 |  1.0016 /  4.03
+4 primes backward from 1033 (174th)             1.0018    4.24 |  1.0016 /  4.80
+4 totient backward from 1033 (174th)            1.0018    4.60 |  1.0016 /  4.24
+4 primes from 3301 (464th)                      1.0016    4.78 |  1.0011 /  3.51
+4 totient from 3301 (464th)                     1.0015    3.70 |  1.0014 /  4.42
+4 primes backward from 3301 (464th)             1.0019    6.97 |  1.0018 /  4.40
+4 totient backward from 3301 (464th)            1.0018    4.84 |  1.0017 /  5.15
+4 primes from 1031                              1.0023    4.27 |  1.0019 /  5.10
+4 totient from 1031                             1.0016    4.06 |  1.0025 /  6.80
+4 primes backward from 1031                     1.0014    4.78 |  1.0017 /  4.34
+4 totient backward from 1031                    1.0014    4.78 |  1.0010 /  4.32
+4 primes from 1229                              1.0020    4.23 |  1.0016 /  4.90
+4 totient from 1229                             1.0023    4.49 |  1.0018 /  4.43
+4 primes backward from 1229                     1.0019    4.87 |  1.0019 /  6.17
+4 totient backward from 1229                    1.0016    4.87 |  1.0015 /  4.89
+4 primes from 1259                              1.0018    4.69 |  1.0018 /  5.35
+4 totient from 1259                             1.0018    4.69 |  1.0017 /  4.80
+4 primes backward from 1259                     1.0020    5.52 |  1.0022 /  3.97
+4 totient backward from 1259                    1.0021    5.52 |  1.0017 /  4.24
+6 cicada pixels row-major                       1.0011    2.04 |  1.0011 /  2.04
+6 cicada pixels column-major                    1.0011    2.04 |  1.0022 /  4.05
+6 cicada base64 indices                         1.0015    4.32 |  1.0018 /  4.32
+
+across all 83 keys: real best IoC 1.0025 vs control best 1.0027; real best struct 6.97 vs control best 6.80
+
+5 discrete-log autokey: IoC 1.0225, struct 56.09   | shuffled runes: IoC 1.0003, struct 1.94
+column IoC on non-zero steps, periods 41-200: best 1.0180 at period 192; shuffled best of 160 periods: [np.float64(1.019), np.float64(1.0182), np.float64(1.0197), np.float64(1.0166), np.float64(1.0217)]

@@ -1,0 +1,15 @@
+self-test on English: correct keystream IoC 1.754 (best over offsets 0-4 without the start state: 1.754), wrong keystream 0.999, doublet rate 0.62%
+
+candidate keystreams through the full model (best over 4 inner ops x 2 key-advance rules x offsets):
+   1.0029  AES(sha256("the primes are sacred")) ('imul29', 'every rune', 'restart none', 'offset 38')
+   1.0028  AES(sha256("INSTAR"))              ('imul29', 'every rune', 'restart segment', 'offset 56')
+   1.0027  AES(sha256("parable"))             ('add28', 'skip zeros', 'restart none', 'offset 12')
+   1.0026  wisdom bytes                       ('mul29', 'skip zeros', 'restart none', 'offset 39')
+   1.0026  AES(sha256("divinity"))            ('add28', 'skip zeros', 'restart segment', 'offset 43')
+   1.0025  AES(sha256("the key is all around you")) ('mul29', 'every rune', 'restart none', 'offset 33')
+   1.0025  AES(sha256(wisdom))                ('add28', 'skip zeros', 'restart segment', 'offset 18')
+   1.0025  AES(sha256("circumference"))       ('mul29', 'skip zeros', 'restart none', 'offset 24')
+   1.0024  AES(sha256("3301"))                ('mul29', 'skip zeros', 'restart segment', 'offset 5')
+   1.0024  totient(primes)                    ('mul29', 'skip zeros', 'restart segment', 'offset 1')
+   ...lowest best: 1.0000
+noise: best of ~960 settings per candidate on random data is about 1.003-1.005

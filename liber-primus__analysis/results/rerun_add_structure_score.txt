@@ -1,0 +1,17 @@
+self-test on English: correct keystream IoC 1.754 (best over offsets 0-4 without the start state: 1.754), wrong keystream 0.999, doublet rate 0.62%
+null (random keys): combined score median 1.36, 99th pct 2.87, max 2.91
+sensitivity check (English under a period-7 Vigenere, under the peeled layer): correct key scores 615.7 via 5-gram repeats; wrong keys 99th pct 3.49
+
+candidates rescored by structure (best of 160 settings each; a single random key exceeds 2.87 1% of the time):
+     5.50  totient(primes)                    ('sub28', 'every rune', 3, 'periodic IoC')
+     5.50  primes                             ('sub28', 'every rune', 3, 'periodic IoC')
+     5.26  AES(sha256("761"))                 ('imul29', 'skip zeros', 6, 'lag repeats')
+     5.10  AES(sha256("1231507051321"))       ('mul29', 'skip zeros', 0, 'lag repeats')
+     4.87  AES(sha256("emerge"))              ('sub28', 'skip zeros', 9, 'doublets')
+     4.59  AES(sha256("parable"))             ('add28', 'skip zeros', 12, 'unigram')
+     4.55  AES(sha256("DIVINITY"))            ('add28', 'skip zeros', 2, 'lag repeats')
+     4.55  AES-256 zero key                   ('mul29', 'skip zeros', 7, '5-gram repeats')
+   for comparison, best of 20 random keys: [np.float64(2.83), np.float64(2.91), np.float64(3.23), np.float64(3.73), 2.5, np.float64(2.35), np.float64(3.57), np.float64(3.14)]
+
+fair control: best-of-160 for 12 random keys: median 4.57, max 5.35
+candidates above the control maximum: [(np.float64(5.5), 'totient(primes)'), (np.float64(5.5), 'primes')]
