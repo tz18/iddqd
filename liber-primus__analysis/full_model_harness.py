@@ -2,7 +2,7 @@
     plaintext --rotate (rare letter -> 0)--> x --inner layer keyed by K, 0 kept fixed--> s --ciphertext autokey--> c
 Undo: s[i] = c[i] - c[i-1] (mod 29). s == 0 -> the rare letter (doublet). For s != 0, undo the inner layer:
     'add28'  : x = 1 + ((s-1) - k) mod 28           (shift over the 28 non-zero symbols)
-    'sub28'  : x = 1 + (k - (s-1)) mod 28
+    'sub28'  : x = 1 + ((s-1) + k) mod 28   (key was subtracted when enciphering; k - s would only relabel add28)
     'mul29'  : x = s * k^-1 mod 29, k in 1..28      (multiplication keeps 0 fixed)
     'imul29' : x = s * k mod 29
 Key advance: on every rune, or only on non-zero s (skip rule, like the solved pages' F).
@@ -37,7 +37,7 @@ def undo(c, groups, K, op, skip, offset, per_group_restart):
     x = np.zeros(len(s), int)
     sv = s[nz]; kv = k[nz]
     if op == 'add28': x[nz] = 1 + ((sv - 1) - kv) % 28
-    elif op == 'sub28': x[nz] = 1 + (kv - (sv - 1)) % 28
+    elif op == 'sub28': x[nz] = 1 + ((sv - 1) + kv) % 28
     elif op == 'mul29': x[nz] = sv * INV29[kv % 28 + 1] % 29
     else: x[nz] = sv * (kv % 28 + 1) % 29
     return ioc28(x[nz])
@@ -120,7 +120,7 @@ for direction in ('cw', 'ccw'):
     for op in ('add28', 'sub28', 'mul29', 'imul29'):
         s = (C[1:] - C[:-1]) % 29; nz = s != 0; k = Kpos[1:]
         sv, kv = s[nz], k[nz]
-        x = {'add28': 1 + ((sv - 1) - kv) % 28, 'sub28': 1 + (kv - (sv - 1)) % 28,
+        x = {'add28': 1 + ((sv - 1) - kv) % 28, 'sub28': 1 + ((sv - 1) + kv) % 28,
              'mul29': sv * INV29[kv % 28 + 1] % 29, 'imul29': sv * (kv % 28 + 1) % 29}[op]
         v = ioc28(x)
         if v > best[0]: best = (v, (op, 'positional', 'restart page', direction))

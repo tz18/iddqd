@@ -58,7 +58,7 @@ def page_key(rfun, base):
     return K
 def eval_positional(Kpos):
     s = D; nz = s != 0; sv, kv = s[nz], Kpos[nz]; bi = bs = -9
-    for x in (((sv - 1) - kv) % 28, (kv - (sv - 1)) % 28, sv * INV[kv % 28 + 1] % 29 - 1, sv * (kv % 28 + 1) % 29 - 1):
+    for x in (((sv - 1) - kv) % 28, ((sv - 1) + kv) % 28, sv * INV[kv % 28 + 1] % 29 - 1, sv * (kv % 28 + 1) % 29 - 1):
         bi = max(bi, ioc28(x)); bs = max(bs, score(x, 28)[0])
     return bi, bs
 runes_on = {pg: int((PAGE == pg).sum()) for pg in np.unique(PAGE)}

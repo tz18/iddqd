@@ -29,7 +29,7 @@ def peel(K, op, skip, offset, restart):
         idx = idx - base
     k = K[(idx + offset) % len(K)]; sv, kv = s[nz], k[nz]
     if op == 'add28': return ((sv - 1) - kv) % 28
-    if op == 'sub28': return (kv - (sv - 1)) % 28
+    if op == 'sub28': return ((sv - 1) + kv) % 28
     if op == 'mul29': return sv * INV[kv % 28 + 1] % 29 - 1
     return sv * (kv % 28 + 1) % 29 - 1
 def evaluate(K):

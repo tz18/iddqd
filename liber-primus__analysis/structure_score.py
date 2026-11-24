@@ -60,7 +60,7 @@ if __name__ == '__main__':
         step = nz.astype(int) if skip else np.ones(len(s), int); idx = np.cumsum(step) - step
         k = K[(idx + offset) % len(K)]; sv, kv = s[nz], k[nz]
         if op == 'add28': x = ((sv - 1) - kv) % 28
-        elif op == 'sub28': x = (kv - (sv - 1)) % 28
+        elif op == 'sub28': x = ((sv - 1) + kv) % 28
         elif op == 'mul29': x = sv * INV29[kv % 28 + 1] % 29 - 1
         else: x = sv * (kv % 28 + 1) % 29 - 1
         return x                                     # values 0..27 (28 symbols)

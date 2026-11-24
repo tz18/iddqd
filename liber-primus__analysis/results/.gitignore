@@ -1,1 +1,5 @@
 # in progress; committed when the runs finish
+rerun_add_full_model_harness.txt
+rerun_add_structure_score.txt
+rerun_add_history_hypotheses.txt
+rerun_add_unreasonable.txt
