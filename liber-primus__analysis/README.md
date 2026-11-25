@@ -229,3 +229,8 @@ riffle in/out, rail fence 2-6, columnar 2-8 (33 candidates). Undoing the right o
 order (lag1 -0.13, i.e. z about -7.6; clause-final words ~5.5 runes, z about +6.5). Best combined z 2.9 (riffle in,
 inverse), below a single random shuffle's 95th percentile (3.4): nothing restores English. Words inside clauses are not
 sorted by length, GP sum, first or last rune (mean Kendall tau within +/- 0.03).
+
+## prime_first_order.py (results/prime_first_order.txt)
+Ordering words inside clauses by a plaintext property: sum/product track length (Kendall tau ~0, ruled out); prime-sum
+words first/last would move odd-length words (93% of prime-sum words are odd-length) to the front/back, a position gap
+of about -/+0.15; the unsolved gap is +0.007 +/- 0.011. Ruled out.

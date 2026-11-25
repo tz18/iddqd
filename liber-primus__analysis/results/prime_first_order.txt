@@ -1,0 +1,4 @@
+solved plaintext: prime-sum words 0.18; odd length among prime-sum 0.93, among others 0.34
+unsolved odd-minus-even position gap +0.0074 (null +0.0002 +/- 0.0114, z +0.62)
+simulated on solved clauses, prime-sum words first: gap -0.152
+simulated on solved clauses, prime-sum words last: gap +0.182
