@@ -234,3 +234,9 @@ sorted by length, GP sum, first or last rune (mean Kendall tau within +/- 0.03).
 Ordering words inside clauses by a plaintext property: sum/product track length (Kendall tau ~0, ruled out); prime-sum
 words first/last would move odd-length words (93% of prime-sum words are odd-length) to the front/back, a position gap
 of about -/+0.15; the unsolved gap is +0.007 +/- 0.011. Ruled out.
+
+## sources/blake/ (blake_crawl.py)
+Blake's works from Wikisource (122 works from the author page plus their sub-pages, 273 pages, ~276k words incl.
+Songs, Marriage of Heaven and Hell, Urizen, Ahania, Los, Four Zoas, Milton, Jerusalem, letters, notebook), cleaned of
+page furniture; one file per page and `_ALL.txt`. Gutenberg (maintenance), sacred-texts and the Blake Archive (bot
+challenges) were unreachable.
