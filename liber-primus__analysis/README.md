@@ -200,3 +200,10 @@ if count within 2 sd and position chi2 p > 0.01. Whole text: model B 0 survivors
 only for runes rarer than ~0.9% (AE, EO, IA, J, OE, X, EA), which add too few occurrences to show. Per section the
 tests are weak: model B survivors are many and scattered (92 in seg 7, 4-5 in seg 15, the largest), always mid-frequency
 letters with flat position profiles (C, M, L, H) - consistent with low power, not with a specific skip rune.
+
+## rare_skip_positions.py (results/rare_skip_positions.txt)
+Rare-rune top-level skip (form A) by word position: occurrences fitted as a mixture of the rune's English position
+profile (16 classes: index from start x index from end) and random positions. Share w predicted if the rune were the
+skip vs fitted w (95% CI): IA 0.145 vs 0.035 (0-0.086), J 0.050 vs 0 (0-0.029), X 0.054 vs 0 (0-0.048), EA 0.239 vs 0
+(0-0.052) - all excluded. OE 0.013, AE 0.004, EO 0.003 are inside their CIs but would add only 1-6 genuine occurrences.
+No rune shows its English positions (max LR 3.3, Y, over all 29). A meaningful top-level skip is ruled out.
