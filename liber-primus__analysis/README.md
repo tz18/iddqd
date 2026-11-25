@@ -254,3 +254,9 @@ MOURNFUL (and OBSCURA once) of the Some Wisdom square's words occur in Blake; AE
 ANALOG, CABAL do not. Coverage of unsolved word sums by Urizen words 0.822 vs 0.821 for random runes of the same word
 lengths (all Blake 0.988 vs 0.989); adjacent decoded words forming a Blake word pair: 0.020 vs 0.022 (all Blake 0.300 vs
 0.302). All |z| < 1.2. The decoding reads Blake-like only because the vocabulary is Blake's.
+
+## best_reading.py (results/best_reading.txt)
+Best-reading test of the GP-sum codebook: each unsolved word replaced by the Blake (or Urizen) word with the same sum
+that reads most like English (best single word by frequency; best sequence by Viterbi over a Blake word-pair model).
+Real text vs 30 fake texts (same word lengths, shuffled runes): z between -0.2 and +1.0 for all four codebooks. The
+unsolved ciphertext does not decode to language better than random runes through a sum codebook.
