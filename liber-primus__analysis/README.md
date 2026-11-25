@@ -95,3 +95,12 @@ As an LP key (bytes mod 29, base-29 digits, whole packet) it scores at the rando
 Generalised word-length crib: every 4-10 word window of the solved LP text and of Cicada's signed messages
 (2012-2014 archive, 2014 OutGuess messages, 2017), 2,978 windows, slid along the unsolved word lengths. Counts
 match shuffled-order nulls at every k (z between -0.7 and +0.6); no match longer than 7 words. No verbatim reuse.
+
+## base60_block_rsa.py
+The base-60 block on unsolved pages 64-66: 256 pairs (alphabet 0-9A-Za-x) decode to exactly 256 bytes (max 255),
+a 2048-bit number S. Tested with Cicada's two RSA-4096 keys (primary 7A35090F, subkey 671DDEB1), S big- and
+little-endian: S^e mod n has no PKCS#1 or other structure (printable fraction 0.33-0.38, random is 0.37); S is
+not a valid private exponent; gcd(S, n) = 1. As a modulus: small factors (2,5,43,53 / 5,14827), composite
+cofactor, no close-prime Fermat factorisation, not a perfect power. As an LP key it scores at random level.
+A real signature from a 4096-bit key is 4096 bits long, so a 2048-bit block cannot be one of Cicada's signatures
+(chance 2^-2048); if it is a signature it is from some other, 2048-bit key.

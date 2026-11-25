@@ -1,0 +1,29 @@
+block bytes: cbe7a7ba61ed7eb75cf99cdef704b7d4 ... 719eace6b424bd50 | sha256 2a388f2949e9696d
+
+== S big-endian: 2048 bits, odd False
+  [primary 7A35090F] a) S^e mod n: leading zero bytes 0, starts 5421bf80a496, printable 0.37, PKCS1 False
+  [primary 7A35090F] b) S as private exponent: x^(e*S)==x ? [False, False, False]
+  [primary 7A35090F]    gcd(S, n) = 1
+  [subkey 671DDEB1] a) S^e mod n: leading zero bytes 0, starts 9effea7dcde8, printable 0.33, PKCS1 False
+  [subkey 671DDEB1] b) S as private exponent: x^(e*S)==x ? [False, False, False]
+  [subkey 671DDEB1]    gcd(S, n) = 1
+  c) small factors < 1e6: [2, 5, 43, 53]
+     cofactor 2031 bits, probable prime: False
+     Fermat (primes within ~2^1032 of each other): no
+     perfect power: no
+
+== S little-endian: 2047 bits, odd True
+  [primary 7A35090F] a) S^e mod n: leading zero bytes 0, starts 1f4373dc9d4a, printable 0.36, PKCS1 False
+  [primary 7A35090F] b) S as private exponent: x^(e*S)==x ? [False, False, False]
+  [primary 7A35090F]    gcd(S, n) = 1
+  [subkey 671DDEB1] a) S^e mod n: leading zero bytes 0, starts 4076703fb5c1, printable 0.38, PKCS1 False
+  [subkey 671DDEB1] b) S as private exponent: x^(e*S)==x ? [False, False, False]
+  [subkey 671DDEB1]    gcd(S, n) = 1
+  c) small factors < 1e6: [5, 14827]
+     cofactor 2028 bits, probable prime: False
+     Fermat (primes within ~2^1031 of each other): no
+     perfect power: no
+
+d) as LP key (full model, IoC / struct; random control):
+   bytes mod 29                     IoC 1.0022 struct 4.28 | random 1.0016 / 5.52
+   base-60 values mod 29 per char   IoC 1.0019 struct 3.70 | random 1.0019 / 4.65
