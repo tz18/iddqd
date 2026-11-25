@@ -1,0 +1,16 @@
+stream: 12947 values, zeros (EA) 86 = 0.0066
+top real results (z, IoC x28, domain, key skips EA, restart per section, period):
+   z  2.85  IoC 1.0163  shift    skipEA=True  restart=True  P=100
+   z  2.85  IoC 1.0163  mult-log skipEA=True  restart=True  P=100
+   z  2.81  IoC 1.0124  shift    skipEA=True  restart=True  P=59
+   z  2.81  IoC 1.0124  mult-log skipEA=True  restart=True  P=59
+   z  2.75  IoC 1.0153  shift    skipEA=False restart=True  P=95
+   z  2.75  IoC 1.0153  mult-log skipEA=False restart=True  P=95
+   z  2.62  IoC 1.0099  shift    skipEA=True  restart=False P=44
+   z  2.62  IoC 1.0099  mult-log skipEA=True  restart=False P=44
+
+best real z 2.85 vs null best-of-scan 2.93 +/- 0.51 (max 5.07); p = 0.525
+   period  13: best z  0.97 (shift, skipEA=True, restart=False)
+   period   8: best z  1.74 (shift, skipEA=False, restart=False)
+   period  28: best z  0.82 (shift, skipEA=True, restart=True)
+   period  29: best z  1.15 (shift, skipEA=False, restart=False)

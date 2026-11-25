@@ -176,3 +176,10 @@ freq(X) = f_X. Raw ciphertext, whole text and each section: no rune with English
 strongly rejected); only the rarest (X, J, AE) are indistinguishable from "none". Autokey-removed stream: the zero
 symbol (doublets) is at 0.66% +/- 0.07%, which model B fits overwhelmingly (+177 log-lik vs uniform). Runes with that
 English frequency: EA 0.67% and IA 0.54% in LP spelling; in letter-by-letter spelling no rune is close (X, J 0.18%).
+
+## ea_zero_inner.py (results/ea_zero_inner.txt)
+EA rotated to 0; autokey-removed stream (86 zeros = EA, 0.66%); nonzero values tested for a periodic inner key, P 1-100,
+key skipping EA or not, continuous or restarting per section. Column IoC is invariant to relabelling symbols, so the
+shift and discrete-log (multiplication) domains give identical results, and the test covers ANY periodic polyalphabetic
+inner layer that keeps 0 (keyed alphabets included). Best z 2.85 (P=100) vs null best-of-scan 2.93 +/- 0.51: p 0.53.
+Period 13 overall z 0.97. No periodic inner key up to 100.
