@@ -1,0 +1,30 @@
+EA in English (LP spelling)        n=  185 initial 0.124  medial 0.838  final 0.038  1-rune word 0.000
+unsolved doublets (2nd rune)       n=   86 initial 0.267  medial 0.512  final 0.221  1-rune word 0.000
+any rune of the unsolved text      n=12956 initial 0.217  medial 0.559  final 0.217  1-rune word 0.006
+
+by word length (share of all):  length: EA-English / doublets / any-rune
+    1: 0.000 / 0.000 / 0.006
+    2: 0.049 / 0.047 / 0.069
+    3: 0.259 / 0.186 / 0.167
+    4: 0.249 / 0.198 / 0.158
+    5: 0.238 / 0.140 / 0.122
+    6: 0.114 / 0.105 / 0.119
+    7: 0.065 / 0.081 / 0.117
+    8: 0.011 / 0.128 / 0.096
+    9: 0.011 / 0.035 / 0.054
+   10: 0.000 / 0.035 / 0.040
+
+consecutive doublets (would be EA EA): 0
+doublets in 1-rune words: 0
+doublet positions vs EA-English: chi2 101.3 (3 df; 7.8 = p 0.05)   expected counts [10.7 72.1  3.3  0. ] observed [23 44 19  0]
+doublet positions vs any rune  : chi2 1.9 (3 df; 7.8 = p 0.05)   expected counts [18.7 48.1 18.7  0.6] observed [23 44 19  0]
+
+if the doublet marks the first rune of the pair: {'initial': np.int64(12), 'medial': np.int64(51), 'final': np.int64(23), '1-rune word': np.int64(0)}
+
+plaintext runes ranked by fit of their word-position profile to the doublets (chi2, 3 df):
+   M   chi2    3.0  English freq 0.0243
+   O   chi2    9.5  English freq 0.0799
+   T   chi2    9.9  English freq 0.0562
+   C   chi2   12.6  English freq 0.0334
+   H   chi2   15.1  English freq 0.0302
+   N   chi2   21.4  English freq 0.0636

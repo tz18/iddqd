@@ -183,3 +183,11 @@ key skipping EA or not, continuous or restarting per section. Column IoC is inva
 shift and discrete-log (multiplication) domains give identical results, and the test covers ANY periodic polyalphabetic
 inner layer that keeps 0 (keyed alphabets included). Best z 2.85 (P=100) vs null best-of-scan 2.93 +/- 0.51: p 0.53.
 Period 13 overall z 0.97. No periodic inner key up to 100.
+
+## ea_positions.py (results/ea_positions.txt)
+If doublets mark plaintext EA (passed through under ciphertext autokey), they must sit where EA sits in words. EA in
+English (LP spelling, Blake + solved LP): initial 12%, medial 84%, final 4%. Unsolved doublets: initial 27%, medial 51%,
+final 22% (19 word-final vs 3.3 expected), chi2 101 vs EA but 1.9 vs a random rune position. Marking the first rune of
+the pair instead is no better (23 final). No plaintext rune with a ~0.7% frequency fits; the best position-profile fit
+(M) has frequency 2.4%. The doublet positions ignore word structure: the rare zero looks key/cipher-driven, not a
+plaintext letter (assuming word breaks are plaintext word boundaries).
