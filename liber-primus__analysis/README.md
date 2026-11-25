@@ -154,3 +154,11 @@ are as random as the rest (unigram chi2, doublet rate).
 The unsolved short-clause prime excess is spread out: segments 7-11 (8/24, z 2.3) and 12-15 (10/30, z 3.1); LP1
 unsolved pages 16/45 (z 3.7), LP2 unsolved pages only 9 short clauses (2/9). It holds when "short" is counted in
 words (<= 5, 6 or 8 words: z 3.3-3.5). Paragraph-first short clauses are prime 6/13, others 12/41 (heading-like, small n).
+
+## divine_keystream.py (results/divine_keystream.txt)
+User's theory: prime-sum clauses are "divine", need no decryption, and are keystream for the rest. Tested: the unsolved
+prime clauses (31, or the 18 short) and the solved LP prime-clause plaintext as running keys over the non-prime
+clauses (3 ops, with/without F-skip, forward/reversed); each prime clause keying the clauses that follow it; the
+prime sums themselves as keys (shift, multiply, decimal and base-29 digits); and the full model. Controls: keys made of
+the same number of random non-prime clauses. Everything at control level (best z 1.6, p 0.07: solved LP prime
+plaintext as running key). Note: the multiply control is inflated by non-prime sums divisible by 29 (key 0).
