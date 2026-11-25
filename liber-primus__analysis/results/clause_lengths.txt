@@ -1,0 +1,14 @@
+text                                            n | words/clause: mean  sd    CV   p10 p25 med p75 p90  share<=3 | runes/clause mean  CV  | lag1(words)
+LP unsolved                                   168 |  17.2  16.3 0.95    3   6  13  25  33    0.14   |   77.1 0.95 | -0.102
+LP solved plaintext                            94 |   7.9   5.5 0.71    2   3   6  11  16    0.26   |   31.7 0.67 | +0.303
+Blake sentences, letter by letter             254 |  18.8  22.3 1.19    4   7  13  22  33    0.09   |   79.6 1.20 | +0.159
+Blake sentences, LP spelling                  254 |  18.8  22.3 1.19    4   7  13  22  33    0.09   |   74.2 1.19 | +0.159
+Blake clauses (. ! ? ; :), letter by letter   347 |  13.7  10.0 0.73    3   7  12  18  27    0.10   |   58.3 0.74 | +0.218
+random break placement (geometric, same mean)  168 | CV 0.96 +/- 0.07, share<=3 0.16
+
+unsolved clause length in words, sorted list: [1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6, 6, 6, 7, 7, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 10, 10, 10, 10, 11, 11, 11, 12, 12, 12, 12, 13, 13, 13, 13, 13, 13, 14, 14, 14, 14, 14, 15, 15, 15, 16, 16, 16, 17, 17, 17, 17, 18, 18, 19, 19, 19, 20, 20, 20, 20, 21, 21, 21, 21, 22, 23, 23, 23, 23, 23, 24, 24, 24, 24, 25, 25, 25, 26, 26, 26, 26, 26, 26, 27, 28, 28, 28, 28, 28, 29, 30, 30, 30, 31, 31, 31, 31, 31, 31, 33, 33, 33, 34, 34, 36, 39, 40, 40, 40, 47, 52, 58, 64, 64, 69, 70, 129]
+
+KS test, unsolved vs Blake sentences (words/clause): D 0.082, p 0.473
+KS test, unsolved vs random break placement (geometric): D 0.053, p 0.705
+clauses of 1 word: unsolved 2, geometric expects 9.7, Blake-like expects 3.3
+lag-1 of consecutive clause lengths: unsolved -0.102 (shuffled sd 0.073); Blake sentences +0.159

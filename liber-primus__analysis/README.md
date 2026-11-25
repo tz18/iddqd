@@ -216,3 +216,9 @@ clause-initial short; the unsolved text shows neither (last 4.21, first 4.49, bo
 Every section agrees (lag1 -0.09..+0.11). The doublet deficit is the same inside words and across word gaps
 (0.0063 vs 0.0081), so the rune cipher runs continuously over word boundaries in written order: any reordering of
 words must have happened before the rune-level encryption, not after.
+
+## clause_lengths.py (results/clause_lengths.txt)
+Unsolved clause lengths (168 clauses) match English sentences: words/clause median 13, quartiles 6-25, p90 33 vs Blake
+sentences 13, 7-22, 33 (KS p 0.47). Random break placement fits the bulk too (KS p 0.71) but predicts 9.7 one-word
+clauses vs 2 observed (Blake-like 3.3), so the breaks look sentence-like. Consecutive clause lengths: unsolved lag1
+-0.10 (shuffled sd 0.07) vs Blake +0.16 and solved LP +0.30: like word order, clause order shows no English persistence.
