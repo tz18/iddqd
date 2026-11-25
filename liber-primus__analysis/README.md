@@ -260,3 +260,11 @@ Best-reading test of the GP-sum codebook: each unsolved word replaced by the Bla
 that reads most like English (best single word by frequency; best sequence by Viterbi over a Blake word-pair model).
 Real text vs 30 fake texts (same word lengths, shuffled runes): z between -0.2 and +1.0 for all four codebooks. The
 unsolved ciphertext does not decode to language better than random runes through a sum codebook.
+
+## crib_clauses.py (results/crib_clauses.txt, results/crib_clauses_top.md)
+Order-free cribbing of unsolved clauses (2-10 words): every Blake line/sentence piece, solved LP clause and signed-message
+sentence whose words match the clause's word lengths as a set (each word in LP spelling or letter by letter). Validation
+by the running-key check: for up to 24 placements per crib, the implied key (k = s-p, p-s, s+p; s = raw ciphertext or
+autokey-removed stream) scored for English-likeness with Blake rune-pair models. Control: the same cribs and search on 20
+fake ciphertexts per clause. 54 clauses had cribs; 2 with p <= 0.05 (2.7 expected); Fisher combined p 0.96. No crib
+reveals an English running key. Top cribs per clause are listed in results/crib_clauses_top.md.
