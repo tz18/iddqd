@@ -132,3 +132,12 @@ pages; about six units were looked at, so treat as p ~ 0.005-0.01. One sum is 10
 (2) Word lengths, the visible channel: English in runes (solved LP, Blake) has ~25% 2-rune words and lag-1
 correlation -0.10 to -0.14; the unsolved text has 15.5% and -0.015 (shuffled 0.000 +/- 0.019). The unsolved word
 breaks do not behave like English word lengths.
+
+## prime_partitions.py (results/prime_partitions.txt)
+(1) Each solved plaintext clause cut on word boundaries into consecutive all-prime pieces (fewest pieces, by
+dynamic programming), with a null of the same word lengths refilled with random runes. Of 57 clauses with 6+ words,
+35 can be cut (null 24.1); most of those are whole-clause primes. 22 cannot be cut at all (mostly Koan narrative
+and Loss of Divinity prose), so "every phrase is prime" does not hold. (2) All 31 unsolved clauses with prime
+ciphertext sums, with runes, Latin, page/lines and sum.
+Word lengths: Blake spelled WITHOUT digraph runes (TH = T+H, etc.) gives 2-rune share 0.166 and 3-rune 0.230,
+close to the unsolved 0.155 / 0.249; the unsolved lag-1 correlation (-0.015) is still far from English (-0.13).

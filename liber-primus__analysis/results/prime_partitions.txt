@@ -1,0 +1,181 @@
+=== (1) solved plaintext clauses cut into all-prime pieces on word boundaries
+ 7 words ->    1 pieces | null: partition exists 0.27, this few pieces 0.21
+      EXCEPT WHAT YOU CNOW TO BE TRUE (1009)
+ 7 words ->    1 pieces | null: partition exists 0.37, this few pieces 0.23
+      DO NOT EDIT OR CHANGE THIS BOOC (911)
+ 6 words ->    1 pieces | null: partition exists 0.33, this few pieces 0.18
+      EITHER THE WORDS OR THEIR NUMBERS (859)
+12 words ->    1 pieces | null: partition exists 0.46, this few pieces 0.07
+      WELCOME PILGRIM TO THE GREAT JOURNEY TOWARD THE END OF ALL THNGS (2113)
+19 words ->    1 pieces | null: partition exists 0.70, this few pieces 0.15
+      IT IS NOT AN EASY TRIP BUT FOR THOSE WHO FIND THEIR WAY HERE IT IS A NECESSARY ONE (2647)
+22 words ->    4 pieces | null: partition exists 0.57, this few pieces 0.54
+      ALONG THE WAY (547) | YOU (113) | WILL FIND AN END TO ALL STRUGGLE AND SUFFERNG (1699) | YOUR INNOCENCE YOUR ILLUSIANS YOUR CERTAINTY AND YOUR REALITY (2273)
+ 8 words -> None pieces | null: partition exists 0.35, this few pieces None
+      NO PARTITION: ULTIMATELY YOU WILL DISCOUER AN END TO SELF
+12 words -> None pieces | null: partition exists 0.40, this few pieces None
+      NO PARTITION: IT IS THROUGH THIS PILGRIMAGE THAT WE SHAPE OURSELUES AND OUR REALITIES
+ 8 words -> None pieces | null: partition exists 0.41, this few pieces None
+      NO PARTITION: JOURNEY DEEP WITHIN AND YOU WILL ARRIUE OUTSIDE
+13 words ->    2 pieces | null: partition exists 0.30, this few pieces 0.25
+      LICE THE INSTAR IT IS ONLY THROUGH GONG WITHIN THAT WE (1453) | MAY EMERGE (571)
+ 6 words ->    1 pieces | null: partition exists 0.31, this few pieces 0.1
+      YOU ARE A BENG UNTO YOURSELF (1009)
+ 6 words ->    1 pieces | null: partition exists 0.30, this few pieces 0.11
+      YOU ARE A LAW UNTO YOURSELF (991)
+ 6 words ->    1 pieces | null: partition exists 0.29, this few pieces 0.07
+      FOR ALL THAT LIUES IS HOLY (941)
+ 6 words -> None pieces | null: partition exists 0.21, this few pieces None
+      NO PARTITION: AN INSTRUCTIAN COMMAND YOUR OWN SELF
+15 words ->    1 pieces | null: partition exists 0.46, this few pieces 0.13
+      SHADOWS AETHEREAL BUFFERS UOID CARNAL OBSCURA FORM MOBIUS ANALOG UOID MOURNFUL AETHEREAL CABAL A COAN (3517)
+10 words ->    1 pieces | null: partition exists 0.61, this few pieces 0.21
+      A MAN DECIDED TO GO AND STUDY WITH A MASTER (1861)
+ 8 words -> None pieces | null: partition exists 0.07, this few pieces None
+      NO PARTITION: HE WENT TO THE DOOR OF THE MASTER
+11 words -> None pieces | null: partition exists 0.39, this few pieces None
+      NO PARTITION: WHO ARE YOU WHO WISHES TO STUDY HERE ASCED THE MASTER
+ 7 words -> None pieces | null: partition exists 0.29, this few pieces None
+      NO PARTITION: THE STUDENT TOLD THE MASTER HIS NAME
+13 words ->    4 pieces | null: partition exists 0.50, this few pieces 0.49
+      THAT IS NOT WHO (389) | YOU ARE THAT (449) | IS ONLY WHAT YOU (607) | ARE CALLED (587)
+11 words -> None pieces | null: partition exists 0.48, this few pieces None
+      NO PARTITION: WHO ARE YOU WHO WISHES TO STUDY HERE HE ASCED AGAIN
+12 words ->    2 pieces | null: partition exists 0.50, this few pieces 0.35
+      THE MAN THOUGHT (383) | FOR A MOMENT AND REPLIED I AM A PROFESSOR (1567)
+12 words ->    3 pieces | null: partition exists 0.47, this few pieces 0.43
+      THAT IS WHAT (443) | YOU DO NOT WHO YOU ARE (641) | REPLIED THE MASTER (811)
+ 8 words -> None pieces | null: partition exists 0.40, this few pieces None
+      NO PARTITION: WHO ARE YOU WHO WISHES TO STUDY HERE
+ 6 words -> None pieces | null: partition exists 0.25, this few pieces None
+      NO PARTITION: CONFUSED THE MAN THOUGHT SOME MORE
+ 8 words -> None pieces | null: partition exists 0.43, this few pieces None
+      NO PARTITION: FINALLY HE ANSWERED I AM A HUMAN BENG
+ 9 words ->    2 pieces | null: partition exists 0.46, this few pieces 0.38
+      THAT IS ONLY (457) | YOUR SPECIES NOT WHO YOU ARE (883)
+12 words -> None pieces | null: partition exists 0.48, this few pieces None
+      NO PARTITION: WHO ARE YOU WHO WISHES TO STUDY HERE ASCED THE MASTER AGAIN
+16 words ->    2 pieces | null: partition exists 0.59, this few pieces 0.32
+      AFTER A MOMENT OF THOUGHT THE PROFESSOR REPLIED I AM A CONSCIAUSNESS (2243) | INHABITNG AN ARBITRARY BODY (1277)
+10 words -> None pieces | null: partition exists 0.59, this few pieces None
+      NO PARTITION: THAT IS MERELY WHAT YOU ARE NOT WHO YOU ARE
+ 8 words -> None pieces | null: partition exists 0.40, this few pieces None
+      NO PARTITION: WHO ARE YOU WHO WISHES TO STUDY HERE
+18 words ->    2 pieces | null: partition exists 0.83, this few pieces 0.44
+      I (31) | AM HE STARTED BUT HE COULD NOT THINC OF ANYTHNG ELSE TO SAY SO HE TRAILED OFF (2753)
+14 words ->    1 pieces | null: partition exists 0.62, this few pieces 0.14
+      AFTER A LONG PAUSE THE MASTER REPLIED THEN YOU ARE WELCOME TO COME STUDY (2803)
+ 6 words ->    1 pieces | null: partition exists 0.23, this few pieces 0.06
+      DO FOUR UNREASONABLE THNGS EACH DAY (1229)
+11 words ->    4 pieces | null: partition exists 0.23, this few pieces 0.23
+      THE CIRCUMFERENCE PRACTICES THREE BEHAUIARS (1429) | WHICH (109) | CAUSE (233) | THE LOSS OF DIUINITY (643)
+14 words -> None pieces | null: partition exists 0.46, this few pieces None
+      NO PARTITION: WE CONSUME TOO MUCH BECAUSE WE BELEIUE THE FOLLOWNG TWO ERRORS WITHIN THE DECEPTIAN
+10 words ->    2 pieces | null: partition exists 0.38, this few pieces 0.34
+      WE DO NOT (277) | HAUE ENOUGH OR THERE IS NOT ENOUGH (829)
+21 words -> None pieces | null: partition exists 0.50, this few pieces None
+      NO PARTITION: WE HAUE WHAT WE HAUE NOW BY LUCC AND WE WILL NOT BE STRONG ENOUGH LATER TO OBTAIN WHAT WE NEED
+ 6 words -> None pieces | null: partition exists 0.32, this few pieces None
+      NO PARTITION: MOST THNGS ARE NOT WORTH CONSUMNG
+ 9 words -> None pieces | null: partition exists 0.34, this few pieces None
+      NO PARTITION: WE PRESERUE THNGS BECAUSE WE BELIEUE WE ARE WEAC
+14 words ->    2 pieces | null: partition exists 0.46, this few pieces 0.32
+      IF WE LOSE THEM WE WILL NOT BE (967) | STRONG ENOUGH TO GAIN THEM AGAIN (1009)
+ 6 words -> None pieces | null: partition exists 0.29, this few pieces None
+      NO PARTITION: MOST THNGS ARE NOT WORTH PRESERUNG
+22 words ->    5 pieces | null: partition exists 0.77, this few pieces 0.77
+      WE FOLLOW DOGMA SO THAT (769) | WE CAN BELONG AND (727) | BE RIGHT OR WE FOLLOW REASON SO (823) | WE CAN BELONG AND (727) | BE RIGHT (269)
+11 words -> None pieces | null: partition exists 0.32, this few pieces None
+      NO PARTITION: THERE IS NOTHNG TO BE RIGHT ABOUT TO BELONG IS DEATH
+19 words ->    2 pieces | null: partition exists 0.48, this few pieces 0.31
+      IT IS THE BEHAUIARS OF CONSUMPTIAN PRESERUATIAN AND ADHERENCE THAT HAUE US LOSE OUR PRIMALITY (3463) | AND THUS OUR DIUINITY (673)
+ 7 words ->    1 pieces | null: partition exists 0.36, this few pieces 0.19
+      NEUER BECOME ATTACHED TO WHAT YOU OWN (1399)
+ 8 words ->    1 pieces | null: partition exists 0.35, this few pieces 0.19
+      BE PREPARED TO DESTROY ALL THAT YOU OWN (1583)
+ 8 words ->    1 pieces | null: partition exists 0.53, this few pieces 0.19
+      DURNG A LESSON THE MASTER EXPLAINED THE I (1637)
+10 words ->    3 pieces | null: partition exists 0.36, this few pieces 0.35
+      THE I (103) | IS THE UOICE (277) | OF THE CIRCUMFERENCE HE SAID (839)
+20 words -> None pieces | null: partition exists 0.73, this few pieces None
+      NO PARTITION: WHEN ASCED BY A STUDENT TO EXPLAIN WHAT THAT MEANT THE MASTER SAID IT IS A UOICE INSIDE YOUR HEAD
+20 words ->    1 pieces | null: partition exists 0.78, this few pieces 0.13
+      I DONT HAUE A UOICE IN MY HEAD THOUGHT THE STUDENT AND HE RAISED HIS HAND TO TELL THE MASTER (3389)
+22 words ->    3 pieces | null: partition exists 0.88, this few pieces 0.78
+      THE MASTER STOPPED THE STUDENT AND SAID THE UOICE THAT JUST (2213) | SAID YOU HAUE NO UOICE IN YOUR HEAD IS THE (1291) | I (31)
+11 words -> None pieces | null: partition exists 0.41, this few pieces None
+      NO PARTITION: WITHIN THE DEEP WEB THERE EXISTS A PAGE THAT HASHES TO
+12 words ->    3 pieces | null: partition exists 0.22, this few pieces 0.22
+      IT IS THE DUTY OF (509) | EUERY PILGRIM TO SEEC OUT (863) | THIS PAGE (313)
+ 7 words ->    1 pieces | null: partition exists 0.29, this few pieces 0.07
+      LICE THE INSTAR TUNNELNG TO THE SURFACE (1259)
+ 6 words ->    1 pieces | null: partition exists 0.13, this few pieces 0.08
+      WE MUST SHED OUR OWN CIRCUMFERENCES (1031)
+ 6 words ->    1 pieces | null: partition exists 0.16, this few pieces 0.08
+      FIND THE DIUINITY WITHIN AND EMERGE (1229)
+
+clauses with >= 6 words: 57, partitionable 35, expected under null 24.1; mean min pieces real 1.83
+
+=== (2) unsolved clauses with prime ciphertext GP sums
+p18 L 0-L 5 seg 8  103 runes  sum  5843  ᛋᛈᚱᚷ-ᚣᚾᚪᚷᛇᛝᚾ-ᚹᚠᚣᚾᛒᛠᛡ-ᛈᚾᚣᚪᛋᛗᛒ-ᛡᛠᛡᛁ-ᚩᛒᚱᚾᛚᛠ-ᚱᛚᛚᛖᛒᚹᚾᚻᛗᚠᛟᛒ-ᛝ-ᚱᚪᛡᚷᛟᛇᛏᛗᛉ-ᛞᛇ-ᛗᚣᚻᛠ-ᛁᛚᛋ-ᚾᚹᚳᚠᛈᛗᛈᛚ-ᛠᛋᚦᚠᛟᛡ-ᚦᛖᚣ-ᚳᛄᛚᚳᛡᛗ-ᛒᛞᚳᛇ-ᛄᛁᛏᛟ-ᛞᛠᛖᛡᚾᛏ
+                                      SPRG-YNAGEONGN-WFYNBEAIA-PNYASMB-IAEAIAI-OBRNLEA-RLLEBWNHMFOEB-NG-RAIAGOEEOTMX-DEO-MYHEA-ILS-NWCFPMPL-EASTHFOEIA-THEY-CJLCIAM-BDCEO-JITOE-DEAEIANT
+p18 L 6-L 6 seg 8    3 runes  sum   137  ᛈᛞᚦ
+                                      PDTH
+p20 L 3-L10 seg 8  134 runes  sum  7417  ᛁᚩᚳᚢ-ᚣᛠᚾᛏᚷᚳᚪ-ᛉᛡᛇ-ᚦᛄᚣᛄᛚᛟᛖᛚ-ᚣ-ᛈᛡ-ᛖᚹᛟ-ᛇᚾᚪ-ᚻᛞᛇᛋ-ᚦᚣᛇᚦᛄᚦᚱᚢ-ᚳᛠᚪ-ᚢᛄᛡᛈ-ᚣᚫᛇᛋ-ᚻᛠᛏᚣᛞᚣᚫᚠᚻᚩ-ᛟᛗᛉᛟᛄᚷ-ᚢᛡᚱᛡᚳ-ᛁᚠᛟ-ᛁᛄᛈᛒ-ᛖᛝᚣᚦᚩᚫᚣ-ᛠᛉᛡᛖᛚ-ᛁᚱᚣᛞᛠᛄ-ᚫᚳ-ᛗᚷᛁᚫᚢᚪᚫ-ᛄᚪᚻᛈ-ᚠᛞᛚᛁᛠᛈᛟᚣᚩ-ᚢᛒᚷᛝᛟᚢᛝᛋᚢᚳ-ᛏᛞ
+                                      IOCU-YEANTGCA-XIAEO-THJYJLOEEL-Y-PIA-EWOE-EONA-HDEOS-THYEOTHJTHRU-CEAA-UJIAP-YAEEOS-HEATYDYAEFHO-OEMXOEJG-UIARIAC-IFOE-IJPB-ENGYTHOAEY-EAXIAEL-IRYDEAJ-AEC-MGIAEUAAE-JAHP-FDLIEAPOEYO-UBGNGOEUNGSUC-TD
+p21 L 4-L 4 seg 8   11 runes  sum   661  ᚪᛏᛉᛒ-ᛗ-ᚷᛡᛋᛒ-ᛉᛇ
+                                      ATXB-M-GIASB-XEO
+p27 L 3-L 3 seg 9   14 runes  sum   701  ᚱᚣᚾ-ᛁᛠ-ᛚᚹᛋ-ᚠᚦᚪᛠ-ᛈᚷ
+                                      RYN-IEA-LWS-FTHAEA-PG
+p27 L 3-L 4 seg 9   21 runes  sum  1327  ᛏᚷᛡᛟᛠᛡᛒ-ᛉᛄᛒ-ᛖᚾ-ᛞᚠᛠᛗ-ᚦᚪᛗᚠᚪ
+                                      TGIAOEEAIAB-XJB-EN-DFEAM-THAMFA
+p27 L 5-L 9 seg 9  106 runes  sum  5309  ᚻᛡ-ᛗᛁᛏᛟ-ᚻᚣᚹᛏ-ᚠᛒᛁ-ᚫᛖ-ᛝᛒ-ᛚᛏᛠᛉ-ᛟᛋᚾᛉ-ᚹᛏᛠᛏ-ᛖᚢᛡᛖ-ᛉᚾᛇ-ᛟᚳᚾᚠᚩᚾᚠ-ᚳᚪ-ᚷᚱᚩ-ᛠᚦᚹᚣ-ᛒᛁ-ᛝᛇᛟ-ᚣ-ᚷᛗᚩ-ᛁᚷᛄ-ᚩᛇ-ᚢᛁᛉᛝᚪᚱᛉ-ᛏᛄᛞᛈ-ᚾᛝᚷᛏᚢ-ᛚᚷᚳᛏ-ᚢᛒᛇ-ᛈᚩᚣᚢᛏ-ᛡᚫᛏᚹᛏᛇ-ᛡᚫᚫ-ᚦᛏᛝ
+                                      HIA-MITOE-HYWT-FBI-AEE-NGB-LTEAX-OESNX-WTEAT-EUIAE-XNEO-OECNFONF-CA-GRO-EATHWY-BI-NGEOOE-Y-GMO-IGJ-OEO-UIXNGARX-TJDP-NNGGTU-LGCT-UBEO-POYUT-IAAETWTEO-IAAEAE-THTNG
+p27 L11-L 0 seg 9   24 runes  sum  1039  ᛋᛟᚹ-ᛈᚷᛝᛟ-ᚷᚦᚠᛄᚷᚳ-ᛒᛁᛗᛚᛇᛠᚹ-ᚾᚫᚹᚷ
+                                      SOEW-PGNGOE-GTHFJGC-BIMLEOEAW-NAEWG
+p28 L 0-L 1 seg 9   21 runes  sum  1033  ᚩᚻᚪᛏᚾᛄ-ᚣᛝᛏᛡᛝ-ᚢ-ᚩᚠᚣ-ᛗᚢᛒ-ᛏᚠᛈ
+                                      OHATNJ-YNGTIANG-U-OFY-MUB-TFP
+p29 L 1-L 1 seg 9    7 runes  sum   389  ᛇᚻᚣᚪᛈ-ᚾᛋ
+                                      EOHYAP-NS
+p30 L 5-L 3 seg11  226 runes  sum 11689  ᛁᚢᛁᚢ-ᛟᚫᛄᚠᚫ-ᚢᚷᛉᛇᛈᛉ-ᚣᛠᛚᚪᛉ-ᛟᛉᛡᚦᚻᛠ-ᚾᚪᚳ-ᚢᚷᚾ-ᛈᛖᚾᚦᚩᚢᛁᛡᚱ-ᛏᛁᛒᛇᚳᚠᚷ-ᚩᚦᚪ-ᛁᛈᚻᛡᛒ-ᚹᛈᚻᚱᛞᛉᛏᚢ-ᚣᛒ-ᚠᛋᛉᚢ-ᛗᛁ-ᛡᚱ-ᛝᚢᚠᚦᛝ-ᛈᛟᛒ-ᚻᚷᚻᛡᛚ-ᚩᛞᚪᚳ-ᚦᛈᛞᛋᛡᚻᛇᛚ-ᚢᛏᛋᛞ-ᚦᚢᛞᛝ-ᛚᛉᛝ-ᛏᚩᛚ-ᚪᛚ-ᚣ-ᛟᛡᛉᚣ-ᛒᚻᚫᛄᛡᛁ-ᚱᚦᛚᚠ-ᛠᚾᛝ-ᛉᛗᛒᚩᛠᛈ-ᛖᛞᚪᚫᛏᚩᛠᛖᛠᛉᚳᛠᛏ-ᚩᛞᚳᛠᚾᚳᚦᛗ-ᛞ-ᚷᛁᚳᚹᛟ-ᚪᚢᛒᚳᚫ-ᚦᚱ-ᛋᚣᚪ-ᛏᚦᛒ-ᛝᚹᛋᚱᛁᛝ-ᛒᛁᚪᚫᛚ-ᛏᚱᛡᚫᚠᛞ-ᛝᛄᚩ-ᛡᛠᛉ-ᚪᛡᚻ-ᚱᛒᛁ-ᛞᛡᛄᚪᛈᚱᛋ-ᚢᛡ-ᚻᚷ-ᛚᛟᚠ-ᚻᚷᚫᛋ
+                                      IUIU-OEAEJFAE-UGXEOPX-YEALAX-OEXIATHHEA-NAC-UGN-PENTHOUIIAR-TIBEOCFG-OTHA-IPHIAB-WPHRDXTU-YB-FSXU-MI-IAR-NGUFTHNG-POEB-HGHIAL-ODAC-THPDSIAHEOL-UTSD-THUDNG-LXNG-TOL-AL-Y-OEIAXY-BHAEJIAI-RTHLF-EANNG-XMBOEAP-EDAAETOEAEEAXCEAT-ODCEANCTHM-D-GICWOE-AUBCAE-THR-SYA-TTHB-NGWSRING-BIAAEL-TRIAAEFD-NGJO-IAEAX-AIAH-RBI-DIAJAPRS-UIA-HG-LOEF-HGAES
+p37 L 5-L 5 seg11   14 runes  sum   571  ᛡᚦᚠᛋᚾ-ᛒᚦᚠ-ᛇᛝᛠ-ᚠᚾᛉ
+                                      IATHFSN-BTHF-EONGEA-FNX
+p42 L 0-L 0 seg13   19 runes  sum  1109  ᛗᛈᚣ-ᛚᛋᚩᚪᚫᚻᛚᛖᛇᛁᛗᛚ-ᛚᛋᚳᛈ
+                                      MPY-LSOAAEHLEEOIML-LSCP
+p42 L 8-L 4 seg13  181 runes  sum  9227  ᚢᛡᚱᚠᛄᛇᚱᛡᚦᛖᚢᛏ-ᛝᚫ-ᚾᚪᛠᚩᚪᚾᚪᚦᚷᚩ-ᚫᛉᛒᛏᛖᛠᛗᚷᚱᛗ-ᚣᛝᚠᛒ-ᛞᛟᛞᚪ-ᛠᚱᚳᛁᛈᛞᚠᛗᛝᚻ-ᛋᚩ-ᛞᛈᛉᚾ-ᛟᚱᛡᚾᚳᚳᛏ-ᚾᛈᚠᛈᚳ-ᛄᚦᛒᛁᚹ-ᛞᚹᛝᛠᛡᚹᛚ-ᚹᛄᚾᚪᛟ-ᛏᛞᛉᚣᛖᚱᛞ-ᚱᛏᛇᛁᚳᛈ-ᛝ-ᚦᛟᚷᛄᚦ-ᚣᛋ-ᛠᚻ-ᚠᛒᛚ-ᛁᚫᛚᛞᛉᚪ-ᛁᚹᚷ-ᛒᚩᚹᚾᛠ-ᛋᛖᛗᛒᛋ-ᚳᚹᚦᛟᚠᚻᚫ-ᛞᚢᛁᛒᛞ-ᛇᛝᛈᚠᛁ-ᛟᚢᚣᛏ-ᚻᚱᛖᚾᚳᛈᛡᛈᛞᛄ-ᛁᛏᛗᛋᚫᛉᚩᚣ-ᚪᛄᛗᛡᛖ-ᛇᛄᚠᛗᚱ
+                                      UIARFJEORIATHEUT-NGAE-NAEAOANATHGO-AEXBTEEAMGRM-YNGFB-DOEDA-EARCIPDFMNGH-SO-DPXN-OERIANCCT-NPFPC-JTHBIW-DWNGEAIAWL-WJNAOE-TDXYERD-RTEOICP-NG-THOEGJTH-YS-EAH-FBL-IAELDXA-IWG-BOWNEA-SEMBS-CWTHOEFHAE-DUIBD-EONGPFI-OEUYT-HRENCPIAPDJ-ITMSAEXOY-AJMIAE-EOJFMR
+p44 L 4-L 5 seg13   11 runes  sum   587  ᛒᛇᛇᚱ-ᚹᛄᛏᛡ-ᚳᚪᚫ
+                                      BEOEOR-WJTIA-CAAE
+p45 L 8-L 9 seg13   25 runes  sum  1637  ᛞᚪᛚᛈ-ᛋᛁ-ᚢᚣᚪᛚᛠᛝᚹ-ᚪᛏᛈᚳᚣ-ᛝᚫᚻᛗᛞᚷᛚ
+                                      DALP-SI-UYALEANGW-ATPCY-NGAEHMDGL
+p45 L10-L 0 seg13   43 runes  sum  2203  ᛗᛖᚫᛞᛠᛁᛗ-ᛒᛟᚾᚳᚩᚱᛉ-ᛋᚹᚫ-ᚻᛖ-ᛋᚠᚾ-ᚢᚦᛟᚷᛖᚪᛟᛇᛇ-ᚦᚳᛒᛝᛏᛉᛡᛞ-ᛋᛡ-ᚩᚠ
+                                      MEAEDEAIM-BOENCORX-SWAE-HE-SFN-UTHOEGEAOEEOEO-THCBNGTXIAD-SIA-OF
+p46 L 8-L10 seg13   41 runes  sum  2029  ᚠᛞᚾ-ᛄᛟ-ᚻᛚᛡ-ᛗᛖᚷ-ᛟᛁᛡ-ᚻᛟᚱᛇᚹᚣᚠ-ᛈ-ᛄᚷᚦ-ᚪᛒᛝ-ᛈᛒᚪᛖ-ᚢᚹᚻᚩᛒᛋᛉ-ᚹᛞ
+                                      FDN-JOE-HLIA-MEG-OEIIA-HOEREOWYF-P-JGTH-ABNG-PBAE-UWHOBSX-WD
+p46 L10-L 1 seg13   71 runes  sum  3571  ᚦᛇᚱᛖ-ᛄᚾᛞᛝᚹᚪ-ᚻᛖᚹ-ᛟᛡᛄᛡᛟᛝᛄᛉᛚᛄ-ᛞᛉᛟᛈ-ᚱᚪᛁᛏᚷᛉᛝᛇ-ᛠᛗᚩᛚ-ᚦᚫᚹ-ᚫᚢᛈᛡᚳ-ᚹᛝᚻᚹᛒᛗᛋᛟᛖᛁᛡ-ᛟᚹᚦᚻᛒ-ᛡᚱᛏᚦᚠ-ᚠᚩᚦ
+                                      THEORE-JNDNGWA-HEW-OEIAJIAOENGJXLJ-DXOEP-RAITGXNGEO-EAMOL-THAEW-AEUPIAC-WNGHWBMSOEEIIA-OEWTHHB-IARTTHF-FOTH
+p48 L 0-L 0 seg13   10 runes  sum   379  ᛞᛇ-ᛉᚳᚠᛁᚪᚹᚻᚷ
+                                      DEO-XCFIAWHG
+p48 L 0-L 4 seg13   81 runes  sum  4339  ᛇᛟ-ᚠᛏᛖᛟᛠᚪᛡᛋᚷ-ᚣᛠᚾᚦᚫᚱ-ᚩᛡᛗ-ᚹᛉᛗ-ᚣᛞᛒᛏᚱ-ᚢᛄᚻ-ᚫᛟ-ᛡᛝᚹᚻᛋᚠᛡ-ᛚᚦᛏ-ᛁᚹᛏ-ᚩᚢᚾᚹᛗᛚ-ᛋᚦᛠᚹᛄ-ᚪᛄᚫᚷᚣᛗᚹᛞ-ᛈᛡ-ᛖᛄᚹ-ᛖᚢ-ᚻᚹ-ᛝᛁ-ᛋᚫᚷ-ᛄᛚ
+                                      EOOE-FTEOEEAAIASG-YEANTHAER-OIAM-WXM-YDBTR-UJH-AEOE-IANGWHSFIA-LTHT-IWT-OUNWML-STHEAWJ-AJAEGYMWD-PIA-EJW-EU-HW-NGI-SAEG-JL
+p52 L 9-L 2 seg14   96 runes  sum  5023  ᛝᛄᛋᛄᛗᚱᛗ-ᚾᛒᛋᛗᛉᛞᚻᛉᛁ-ᚣᛡᚻᚣᛠᛉᚻ-ᛞᛖ-ᚹᛖᚦ-ᚢᚳ-ᛉᛗᚪᚣᛠ-ᚹᚫᚪᚳ-ᚢᚫᚳᛇᚳᚣ-ᛡᚫᛏᛖᚳᚠ-ᛋᚻ-ᛋᚱᚢᚦ-ᛁᛋᛝᛗᛞᚫᚢᛠᚢᚪ-ᚾᛝᚳ-ᛖᛈᚹᛉ-ᚢᛉᚫ-ᚾᛈᚳᚻᚱᚣᚹᛚᛉᚱᛒ-ᛗᚫᛟᚣᚩ-ᚳᛇᛗ
+                                      NGJSJMRM-NBSMXDHXI-YIAHYEAXH-DE-WETH-UC-XMAYEA-WAEAC-UAECEOCY-IAAETECF-SH-SRUTH-ISNGMDAEUEAUA-NNGC-EPWX-UXAE-NPCHRYWLXRB-MAEOEYO-CEOM
+p53 L 3-L 7 seg14  112 runes  sum  6101  ᚻᚫᛉᚦᛒᛟ-ᛏᛟᚹᛄ-ᚫᛠᛗᚠᚫᚳᚷ-ᛇ-ᚻᚹᛗᚻᛝᚣ-ᛁᚩᛁ-ᛏᛁᛖᛡᛄ-ᛗᚣᛚ-ᚻᚱᚩᛞᛒᛡᛈᛠᛗ-ᚳᛠ-ᛖᛒᚢ-ᚷᛁᚦ-ᛟᚫ-ᛡᚻᛝᛖᚾ-ᚱᛠᛡᛋ-ᚻᛏᛝᚻᚪᚷᚩᛝᚫ-ᚹᛚᛏᚱ-ᚷᛁᚾ-ᛖᛠᛄᛡᛞᛋᚻ-ᛝᚾᚳᛋᚾᛞᛇᚾᛋᛁᚳᛡ-ᚱᛝᛚᚫᚣᛇᛚᚩ-ᚳᛞᚾ-ᛝᚷᛡ
+                                      HAEXTHBOE-TOEWJ-AEEAMFAECG-EO-HWMHNGY-IOI-TIEIAJ-MYL-HRODBIAPEAM-CEA-EBU-GITH-OEAE-IAHNGEN-REAIAS-HTNGHAGONGAE-WLTR-GIN-EEAJIADSH-NGNCSNDEONSICIA-RNGLAEYEOLO-CDN-NGGIA
+p54 L 4-L 5 seg14   27 runes  sum  1061  ᚾᚦᛇᛒᚳ-ᚷᛖᛇᛟᛚᛈ-ᚹᚾ-ᚻᚷᚱᛇᛏ-ᛈᚷᛒ-ᚹᛗᛋᚹᛟᚻ
+                                      NTHEOBC-GEEOOELP-WN-HGREOT-PGB-WMSWOEH
+p54 L 6-L 6 seg14    3 runes  sum   173  ᛡᚳᛋ
+                                      IACS
+p55 L 0-L 1 seg15   29 runes  sum  1637  ᚠᚾᛗ-ᚣᚷᛞᚫᚻ-ᚪᛈᛉᚣᚻ-ᛇᛠᚩᛖ-ᛏᛝᛠ-ᛚᛁᛏᚦᚠ-ᛗᚪᚳᛖ
+                                      FNM-YGDAEH-APXYH-EOEAOE-TNGEA-LITTHF-MACE
+p55 L 3-L 4 seg15   21 runes  sum  1231  ᛠᛈᛚ-ᛞᚩᛚᛁᛉᛠᛝᛖᚱ-ᚾᛈᛖᚹᛡ-ᚾᛄᛏᚣ
+                                      EAPL-DOLIXEANGER-NPEWIA-NJTY
+p58 L 4-L 6 seg15   52 runes  sum  3203  ᚪᚾᛡᚪᛖᚫ-ᚳᛇᛁᛝ-ᛒᛡᛞᛠᚫᛒᛠᚳᛉᚠ-ᚫᛏᛁᚱᚪᛗᚩ-ᛚᛉᛋᚪ-ᛒᚩᛈᚫᚩᛝᚻᛇᛖᛇᚫ-ᚻᛖᛇᛠ-ᚱᛗᛞ-ᚫᛇᛗ
+                                      ANIAAEAE-CEOING-BIADEAAEBEACXF-AETIRAMO-LXSA-BOPAEONGHEOEEOAE-HEEOEA-RMD-AEEOM
+p62 L 2-L 3 seg15   17 runes  sum   719  ᚦᛞ-ᛁᚫᚩᚾ-ᛋᚷᛈᚪᛖᚩ-ᚣᚦᚹ-ᚾᚷ
+                                      THD-IAEON-SGPAEO-YTHW-NG
+p62 L 3-L 7 seg15   87 runes  sum  4651  ᛠᛋᚩᛇᛏ-ᛝᛚᚷᛞ-ᛒᛈᛈ-ᛗᛁᚪᛖ-ᛚᛏᛁ-ᚫᛄᛖ-ᛒᚾᚠᚪᛋᚷᛒᚠ-ᚫᚹᚣᚷᚢᛡᚠᛠ-ᛖᛋᛞ-ᛚᚳᛒᛞᛏᛈ-ᛖᚾᛈᚣ-ᚱᚠᚻ-ᚫᛝ-ᛟᚪᛗ-ᛒ-ᛡᛚ-ᛝᛋᚱᚢᚹᚱᚣᚻᚹ-ᚹᛡᛈ-ᛁᚻᚾᚻᚱ-ᚳᛖᛏᚫᚩᛋ-ᚣᛋ
+                                      EASOEOT-NGLGD-BPP-MIAE-LTI-AEJE-BNFASGBF-AEWYGUIAFEA-ESD-LCBDTP-ENPY-RFH-AENG-OEAM-B-IAL-NGSRUWRYHW-WIAP-IHNHR-CETAEOS-YS
+p63 L 0-L 1 seg15   24 runes  sum  1153  ᚠᚪ-ᛈᛞᚱᛒ-ᛝᛁᛋ-ᚷ-ᚠᚾᛈᚠᛒ-ᛟᚦᛁᛠᚪ-ᛡᛏᚾᚳ
+                                      FA-PDRB-NGIS-G-FNPFB-OETHIEAA-IATNC
