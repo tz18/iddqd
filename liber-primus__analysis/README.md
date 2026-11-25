@@ -207,3 +207,12 @@ profile (16 classes: index from start x index from end) and random positions. Sh
 skip vs fitted w (95% CI): IA 0.145 vs 0.035 (0-0.086), J 0.050 vs 0 (0-0.029), X 0.054 vs 0 (0-0.048), EA 0.239 vs 0
 (0-0.052) - all excluded. OE 0.013, AE 0.004, EO 0.003 are inside their CIs but would add only 1-6 genuine occurrences.
 No rune shows its English positions (max LR 3.3, Y, over all 29). A meaningful top-level skip is ruled out.
+
+## wordlen_sequence.py (results/wordlen_sequence.txt)
+Word-length order in the unsolved text has no structure at all: lag 1-5 autocorrelations and the mutual information
+between consecutive lengths equal a shuffled-order null (lag1 -0.015, z -0.7; MI z +0.1), while English (Blake, either
+spelling) has lag1 -0.13 and MI 0.04-0.05 bits. English clause-final words are long (5.2-5.5 vs ~4.0 mid-clause) and
+clause-initial short; the unsolved text shows neither (last 4.21, first 4.49, both at the within-clause shuffle null).
+Every section agrees (lag1 -0.09..+0.11). The doublet deficit is the same inside words and across word gaps
+(0.0063 vs 0.0081), so the rune cipher runs continuously over word boundaries in written order: any reordering of
+words must have happened before the rune-level encryption, not after.

@@ -1,0 +1,22 @@
+text                      words    lag1    lag2    lag3    lag4    lag5  MI bits | inside clause / across break | len: 1st 2nd mid last (n clauses)
+LP unsolved                2896  -0.015  +0.019  -0.012  +0.012  +0.021   0.0125 | -0.009 (2728) / -0.112 (167) | 4.49 4.84 4.47 4.21 (156)
+LP solved (pt)              739  -0.092  +0.070  +0.038  +0.039  -0.003   0.0789 | -0.119 (645) / +0.068 (93) | 3.68 3.70 3.88 5.30 (77)
+Blake, LP spelling         4763  -0.137  -0.013  +0.049  +0.027  -0.012   0.0421 | -0.140 (4416) / +0.023 (346) | 3.46 3.66 3.92 5.16 (330)
+Blake, letter by letter    4763  -0.126  -0.006  +0.044  +0.026  -0.007   0.0547 | -0.130 (4416) / +0.019 (346) | 3.78 3.93 4.20 5.49 (330)
+
+unsolved, global shuffle null: lag1 -0.001 +/- 0.019; MI 0.0122 +/- 0.0024
+unsolved real: lag1 -0.015 (z -0.74); MI z +0.12
+unsolved clause-position means vs within-clause shuffle: 1st 4.49 (null 4.43 +/- 0.18, z +0.3), 2nd 4.84 (null 4.43 +/- 0.18, z +2.3), mid 4.47 (null 4.49 +/- 0.02, z -0.9), last 4.21 (null 4.41 +/- 0.17, z -1.1)
+
+lag-1 by unsolved section:
+   segment  7: words  158  lag1 +0.007  (sd ~ 0.080)
+   segment  8: words  255  lag1 -0.090  (sd ~ 0.063)
+   segment  9: words  383  lag1 +0.111  (sd ~ 0.051)
+   segment 11: words  435  lag1 -0.003  (sd ~ 0.048)
+   segment 12: words  224  lag1 -0.031  (sd ~ 0.067)
+   segment 13: words  349  lag1 -0.026  (sd ~ 0.054)
+   segment 14: words  355  lag1 -0.041  (sd ~ 0.053)
+   segment 15: words  735  lag1 -0.053  (sd ~ 0.037)
+doublets inside a word         :  63/10060 = 0.0063   (random 0.034)
+doublets across a word gap     :  22/ 2728 = 0.0081   (random 0.034)
+doublets across a clause break :   1/  159 = 0.0063   (random 0.034)
