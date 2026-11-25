@@ -240,3 +240,10 @@ Blake's works from Wikisource (122 works from the author page plus their sub-pag
 Songs, Marriage of Heaven and Hell, Urizen, Ahania, Los, Four Zoas, Milton, Jerusalem, letters, notebook), cleaned of
 page furniture; one file per page and `_ALL.txt`. Gutenberg (maintenance), sacred-texts and the Blake Archive (bot
 challenges) were unreachable.
+
+## content_words.py (results/content_words.txt)
+Codebook/word-salad test, prompted by the Some Wisdom square (SHADOWS 341, AETHEREAL 366, BUFFERS 199, VOID 130,
+CARNAL 320, OBSCURA 245, FORM 91, MOBIUS 226, ANALOG 320, MOURNFUL 199, CABAL 341 fill a 5x5 square whose rows, columns
+and diagonals sum to 1033). A plaintext of content words only (Blake minus function words) does NOT fit the unsolved
+word lengths: 2-rune share 1% vs 15.5%, mean 5.5-5.8 vs 4.47 (chi2 5,800-11,400). Closest is all English words spelled
+letter by letter (chi2 60, 9 df), with order removed for the lag-1.
