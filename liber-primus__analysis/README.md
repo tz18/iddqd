@@ -222,3 +222,10 @@ Unsolved clause lengths (168 clauses) match English sentences: words/clause medi
 sentences 13, 7-22, 33 (KS p 0.47). Random break placement fits the bulk too (KS p 0.71) but predicts 9.7 one-word
 clauses vs 2 observed (Blake-like 3.3), so the breaks look sentence-like. Consecutive clause lengths: unsolved lag1
 -0.10 (shuffled sd 0.07) vs Blake +0.16 and solved LP +0.30: like word order, clause order shows no English persistence.
+
+## unshuffle_clauses.py (results/unshuffle_clauses.txt)
+Fixed (unkeyed) word rearrangements inside clauses, each undone in both directions: reverse, outside-in, half-reverse,
+riffle in/out, rail fence 2-6, columnar 2-8 (33 candidates). Undoing the right one should restore English word-length
+order (lag1 -0.13, i.e. z about -7.6; clause-final words ~5.5 runes, z about +6.5). Best combined z 2.9 (riffle in,
+inverse), below a single random shuffle's 95th percentile (3.4): nothing restores English. Words inside clauses are not
+sorted by length, GP sum, first or last rune (mean Kendall tau within +/- 0.03).
