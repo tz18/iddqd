@@ -141,3 +141,11 @@ and Loss of Divinity prose), so "every phrase is prime" does not hold. (2) All 3
 ciphertext sums, with runes, Latin, page/lines and sum.
 Word lengths: Blake spelled WITHOUT digraph runes (TH = T+H, etc.) gives 2-rune share 0.166 and 3-rune 0.230,
 close to the unsolved 0.155 / 0.249; the unsolved lag-1 correlation (-0.015) is still far from English (-0.13).
+
+## sum_preserving.py (results/sum_preserving.txt)
+Tests a cipher that keeps GP sums. Word level: English reuses a few words, so for each length a few sums dominate
+(2-rune words: collision rate 0.11-0.16, top-5 sums 68-71%); the unsolved ciphertext matches random runes (0.015,
+14% vs 0.013, 13%), so word sums are not preserved. Clause level: a sum-preserving cipher keeps the mean GP per rune,
+but English has ~45 (either spelling) and the unsolved ciphertext 51.6 +/- 0.3, so sums cannot be preserved
+overall; even the 18 short prime clauses average 51.6 per rune (English expectation 45 +/- 1.9). The short clauses
+are as random as the rest (unigram chi2, doublet rate).

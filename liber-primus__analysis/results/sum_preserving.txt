@@ -1,0 +1,10 @@
+collision rate of word sums by word length (top-5-sum share in brackets)
+                                             L=1               L=2               L=3               L=4               L=5
+Blake, LP spelling                0.317 (1.00)    0.158 (0.71)    0.042 (0.35)    0.014 (0.16)    0.017 (0.19)
+Blake, letter by letter           0.317 (1.00)    0.114 (0.68)    0.161 (0.60)    0.018 (0.21)    0.018 (0.20)
+LP solved plaintext               0.583 (1.00)    0.129 (0.71)    0.062 (0.48)    0.037 (0.34)    0.063 (0.46)
+LP UNSOLVED ciphertext            0.043 (0.30)    0.015 (0.14)    0.009 (0.10)    0.008 (0.08)    0.009 (0.10)
+random runes, same lengths        0.046 (0.33)    0.013 (0.13)    0.009 (0.09)    0.008 (0.09)    0.009 (0.09)
+unsolved vs random, z by length: -0.93 +2.27 +0.75 -0.45 +0.39
+
+mean GP per rune: solved pt 44.7, Blake (letter by letter) 44.8, unsolved ct 51.6 (SE 0.30); uniform runes 51.0
