@@ -1,0 +1,23 @@
+calibration Welcome  (515 runes): true key 2.331 | random keys 1.181 +/- 0.093 | plaintext IoC 1.723
+calibration Koan 2   (319 runes): true key 1.950 | random keys 1.131 +/- 0.137 | plaintext IoC 2.025
+calibration An End   (85 runes): true key 1.689 | random keys 0.902 +/- 0.505 | plaintext IoC 2.031
+31 prime clauses         raw              fskip 0 fwd: bucket IoC 0.9987 | control 1.0006 +/- 0.0041 z -0.47
+31 prime clauses         raw              fskip 0 rev: bucket IoC 1.0057 | control 1.0006 +/- 0.0034 z  1.47
+31 prime clauses         raw              fskip 1 fwd: bucket IoC 1.0321 | control 1.0360 +/- 0.0035 z -1.12
+31 prime clauses         raw              fskip 1 rev: bucket IoC 1.0350 | control 1.0366 +/- 0.0035 z -0.46
+31 prime clauses         autokey-removed  fskip 0 fwd: bucket IoC 1.0240 | control 1.0243 +/- 0.0038 z -0.07
+31 prime clauses         autokey-removed  fskip 0 rev: bucket IoC 1.0249 | control 1.0245 +/- 0.0041 z  0.08
+31 prime clauses         autokey-removed  fskip 1 fwd: bucket IoC 1.0383 | control 1.0374 +/- 0.0037 z  0.25
+31 prime clauses         autokey-removed  fskip 1 rev: bucket IoC 1.0381 | control 1.0376 +/- 0.0035 z  0.14
+18 short prime clauses   raw              fskip 0 fwd: bucket IoC 1.0003 | control 1.0008 +/- 0.0040 z -0.14
+18 short prime clauses   raw              fskip 0 rev: bucket IoC 0.9942 | control 1.0003 +/- 0.0032 z -1.92
+18 short prime clauses   raw              fskip 1 fwd: bucket IoC 1.0344 | control 1.0363 +/- 0.0038 z -0.50
+18 short prime clauses   raw              fskip 1 rev: bucket IoC 1.0410 | control 1.0364 +/- 0.0039 z  1.19
+18 short prime clauses   autokey-removed  fskip 0 fwd: bucket IoC 1.0255 | control 1.0246 +/- 0.0040 z  0.22
+18 short prime clauses   autokey-removed  fskip 0 rev: bucket IoC 1.0220 | control 1.0245 +/- 0.0036 z -0.70
+18 short prime clauses   autokey-removed  fskip 1 fwd: bucket IoC 1.0426 | control 1.0368 +/- 0.0036 z  1.62
+18 short prime clauses   autokey-removed  fskip 1 rev: bucket IoC 1.0346 | control 1.0375 +/- 0.0034 z -0.86
+solved LP prime plaintext raw              fskip 0: bucket IoC 1.0002 | control 0.9996 +/- 0.0032 z  0.19
+solved LP prime plaintext raw              fskip 1: bucket IoC 1.0321 | control 1.0361 +/- 0.0034 z -1.16
+solved LP prime plaintext autokey-removed  fskip 0: bucket IoC 1.0225 | control 1.0248 +/- 0.0033 z -0.70
+solved LP prime plaintext autokey-removed  fskip 1: bucket IoC 1.0345 | control 1.0371 +/- 0.0036 z -0.73

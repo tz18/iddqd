@@ -162,3 +162,10 @@ clauses (3 ops, with/without F-skip, forward/reversed); each prime clause keying
 prime sums themselves as keys (shift, multiply, decimal and base-29 digits); and the full model. Controls: keys made of
 the same number of random non-prime clauses. Everything at control level (best z 1.6, p 0.07: solved LP prime
 plaintext as running key). Note: the multiply control is inflated by non-prime sums divisible by 29 (key 0).
+
+## key_bucket_test.py (results/key_bucket_test.txt)
+Cipher-agnostic key test: if each key rune selects any substitution alphabet (Vigenere, Beaufort, multiplication, any
+keyed 29x29 table), the ciphertext runes sharing a key rune have plaintext IoC whatever the table. Statistic: weighted
+IoC within the 29 key-value buckets. Calibration with the true applied keys: Welcome 2.33 (random keys 1.18 +/- 0.09),
+Koan 2 1.95 (1.13 +/- 0.14), An End 1.69 (0.90 +/- 0.5). The prime-clause keys (31 or 18 short, forward/reversed, raw or
+autokey-removed, with/without F-skip) and the solved LP prime plaintext: all at control level (|z| < 2).
