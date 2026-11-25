@@ -1,0 +1,249 @@
+
+== raw ciphertext, all unsolved (12956 values)
+  model A survivors: 131; passed rune X among them: ['AE', 'EO', 'IA', 'J', 'OE', 'X']
+  model B survivors: 0
+
+== autokey-removed, all unsolved (12947 values)
+  model A survivors: 129; passed rune X among them: ['AE', 'EA', 'EO', 'IA', 'J', 'OE', 'X']
+  model B survivors: 0
+
+== raw ciphertext, segment 7 (729 values)
+  model A survivors: 277; passed rune X among them: ['AE', 'B', 'EA', 'EO', 'F', 'G', 'H', 'IA', 'J', 'M', 'NG', 'OE', 'P', 'W', 'X', 'Y']
+  model B survivors: 92
+     B  value J   <- plaintext L   (Eng 0.0466)  count 24 vs 34.0  position chi2 0.1 p 0.957
+     B  value OE  <- plaintext M   (Eng 0.0243)  count 25 vs 17.7  position chi2 0.1 p 0.938
+     B  value I   <- plaintext U   (Eng 0.0383)  count 24 vs 27.9  position chi2 0.1 p 0.937
+     B  value B   <- plaintext C   (Eng 0.0334)  count 23 vs 24.3  position chi2 0.3 p 0.879
+     B  value F   <- plaintext C   (Eng 0.0334)  count 34 vs 24.3  position chi2 0.5 p 0.769
+     B  value X   <- plaintext L   (Eng 0.0466)  count 28 vs 34.0  position chi2 0.6 p 0.758
+     B  value NG  <- plaintext C   (Eng 0.0334)  count 29 vs 24.3  position chi2 0.7 p 0.701
+     B  value L   <- plaintext U   (Eng 0.0383)  count 30 vs 27.9  position chi2 0.7 p 0.692
+     B  value B   <- plaintext M   (Eng 0.0243)  count 23 vs 17.7  position chi2 0.9 p 0.649
+     B  value TH  <- plaintext T   (Eng 0.0562)  count 30 vs 41.0  position chi2 1.0 p 0.601
+     B  value M   <- plaintext C   (Eng 0.0334)  count 18 vs 24.3  position chi2 1.3 p 0.527
+     B  value S   <- plaintext C   (Eng 0.0334)  count 23 vs 24.3  position chi2 1.4 p 0.499
+
+== autokey-removed, segment 7 (728 values)
+  model A survivors: 279; passed rune X among them: ['AE', 'B', 'C', 'D', 'EA', 'EO', 'F', 'G', 'H', 'IA', 'J', 'M', 'NG', 'OE', 'P', 'U', 'W', 'X', 'Y']
+  model B survivors: 92
+     B  value Y   <- plaintext M   (Eng 0.0243)  count 25 vs 17.7  position chi2 0.1 p 0.932
+     B  value O   <- plaintext C   (Eng 0.0334)  count 29 vs 24.3  position chi2 0.3 p 0.852
+     B  value C   <- plaintext C   (Eng 0.0334)  count 25 vs 24.3  position chi2 0.5 p 0.782
+     B  value I   <- plaintext M   (Eng 0.0243)  count 24 vs 17.7  position chi2 0.5 p 0.775
+     B  value D   <- plaintext L   (Eng 0.0466)  count 27 vs 33.9  position chi2 0.5 p 0.769
+     B  value X   <- plaintext M   (Eng 0.0243)  count 19 vs 17.7  position chi2 0.7 p 0.721
+     B  value M   <- plaintext M   (Eng 0.0243)  count 22 vs 17.7  position chi2 0.7 p 0.696
+     B  value L   <- plaintext L   (Eng 0.0466)  count 27 vs 33.9  position chi2 0.8 p 0.661
+     B  value A   <- plaintext L   (Eng 0.0466)  count 23 vs 33.9  position chi2 1.0 p 0.609
+     B  value R   <- plaintext C   (Eng 0.0334)  count 20 vs 24.3  position chi2 1.0 p 0.606
+     B  value I   <- plaintext C   (Eng 0.0334)  count 24 vs 24.3  position chi2 1.0 p 0.597
+     B  value IA  <- plaintext L   (Eng 0.0466)  count 24 vs 33.9  position chi2 1.1 p 0.569
+
+== raw ciphertext, segment 8 (1145 values)
+  model A survivors: 233; passed rune X among them: ['AE', 'B', 'EA', 'EO', 'F', 'G', 'IA', 'J', 'M', 'NG', 'OE', 'P', 'X', 'Y']
+  model B survivors: 56
+     B  value D   <- plaintext C   (Eng 0.0334)  count 38 vs 38.2  position chi2 0.3 p 0.846
+     B  value TH  <- plaintext M   (Eng 0.0243)  count 34 vs 27.8  position chi2 0.7 p 0.692
+     B  value TH  <- plaintext C   (Eng 0.0334)  count 34 vs 38.2  position chi2 0.8 p 0.665
+     B  value D   <- plaintext M   (Eng 0.0243)  count 38 vs 27.8  position chi2 1.1 p 0.570
+     B  value O   <- plaintext M   (Eng 0.0243)  count 30 vs 27.8  position chi2 1.2 p 0.554
+     B  value E   <- plaintext C   (Eng 0.0334)  count 32 vs 38.2  position chi2 1.3 p 0.516
+     B  value EO  <- plaintext T   (Eng 0.0562)  count 49 vs 64.3  position chi2 1.7 p 0.429
+     B  value AE  <- plaintext C   (Eng 0.0334)  count 41 vs 38.2  position chi2 2.0 p 0.377
+     B  value U   <- plaintext M   (Eng 0.0243)  count 34 vs 27.8  position chi2 2.2 p 0.337
+     B  value G   <- plaintext C   (Eng 0.0334)  count 43 vs 38.2  position chi2 2.4 p 0.300
+     B  value TH  <- plaintext H   (Eng 0.0302)  count 34 vs 34.6  position chi2 3.0 p 0.228
+     B  value E   <- plaintext M   (Eng 0.0243)  count 32 vs 27.8  position chi2 3.0 p 0.219
+
+== autokey-removed, segment 8 (1144 values)
+  model A survivors: 222; passed rune X among them: ['AE', 'B', 'EA', 'EO', 'F', 'G', 'IA', 'J', 'M', 'NG', 'OE', 'P', 'X', 'Y']
+  model B survivors: 51
+     B  value AE  <- plaintext L   (Eng 0.0466)  count 40 vs 53.3  position chi2 0.2 p 0.918
+     B  value TH  <- plaintext T   (Eng 0.0562)  count 55 vs 64.3  position chi2 0.4 p 0.807
+     B  value EA  <- plaintext C   (Eng 0.0334)  count 43 vs 38.2  position chi2 0.5 p 0.774
+     B  value Y   <- plaintext L   (Eng 0.0466)  count 39 vs 53.3  position chi2 0.7 p 0.698
+     B  value N   <- plaintext L   (Eng 0.0466)  count 41 vs 53.3  position chi2 0.8 p 0.685
+     B  value S   <- plaintext L   (Eng 0.0466)  count 48 vs 53.3  position chi2 2.1 p 0.353
+     B  value D   <- plaintext C   (Eng 0.0334)  count 42 vs 38.2  position chi2 2.4 p 0.308
+     B  value M   <- plaintext C   (Eng 0.0334)  count 46 vs 38.2  position chi2 2.5 p 0.283
+     B  value EO  <- plaintext M   (Eng 0.0243)  count 28 vs 27.8  position chi2 2.6 p 0.274
+     B  value E   <- plaintext M   (Eng 0.0243)  count 29 vs 27.8  position chi2 2.7 p 0.264
+     B  value X   <- plaintext L   (Eng 0.0466)  count 44 vs 53.3  position chi2 2.7 p 0.255
+     B  value R   <- plaintext M   (Eng 0.0243)  count 38 vs 27.8  position chi2 2.9 p 0.235
+
+== raw ciphertext, segment 9 (1729 values)
+  model A survivors: 199; passed rune X among them: ['AE', 'B', 'EA', 'EO', 'G', 'IA', 'J', 'NG', 'OE', 'P', 'X', 'Y']
+  model B survivors: 26
+     B  value C   <- plaintext L   (Eng 0.0466)  count 63 vs 80.6  position chi2 1.2 p 0.537
+     B  value U   <- plaintext L   (Eng 0.0466)  count 69 vs 80.6  position chi2 1.9 p 0.386
+     B  value EO  <- plaintext M   (Eng 0.0243)  count 52 vs 42.0  position chi2 1.9 p 0.386
+     B  value H   <- plaintext M   (Eng 0.0243)  count 52 vs 42.0  position chi2 2.7 p 0.253
+     B  value H   <- plaintext C   (Eng 0.0334)  count 52 vs 57.7  position chi2 3.7 p 0.160
+     B  value F   <- plaintext C   (Eng 0.0334)  count 66 vs 57.7  position chi2 3.8 p 0.148
+     B  value O   <- plaintext C   (Eng 0.0334)  count 61 vs 57.7  position chi2 4.9 p 0.085
+     B  value N   <- plaintext C   (Eng 0.0334)  count 69 vs 57.7  position chi2 5.2 p 0.074
+     B  value I   <- plaintext M   (Eng 0.0243)  count 50 vs 42.0  position chi2 5.4 p 0.067
+     B  value A   <- plaintext L   (Eng 0.0466)  count 64 vs 80.6  position chi2 5.4 p 0.067
+     B  value TH  <- plaintext L   (Eng 0.0466)  count 69 vs 80.6  position chi2 5.7 p 0.059
+     B  value X   <- plaintext T   (Eng 0.0562)  count 78 vs 97.1  position chi2 5.7 p 0.058
+
+== autokey-removed, segment 9 (1728 values)
+  model A survivors: 206; passed rune X among them: ['AE', 'B', 'EA', 'EO', 'G', 'IA', 'J', 'NG', 'OE', 'P', 'X', 'Y']
+  model B survivors: 22
+     B  value S   <- plaintext M   (Eng 0.0243)  count 52 vs 42.0  position chi2 0.4 p 0.830
+     B  value R   <- plaintext C   (Eng 0.0334)  count 51 vs 57.6  position chi2 0.6 p 0.725
+     B  value R   <- plaintext M   (Eng 0.0243)  count 51 vs 42.0  position chi2 1.0 p 0.595
+     B  value A   <- plaintext L   (Eng 0.0466)  count 70 vs 80.5  position chi2 2.3 p 0.321
+     B  value S   <- plaintext C   (Eng 0.0334)  count 52 vs 57.6  position chi2 2.6 p 0.271
+     B  value D   <- plaintext L   (Eng 0.0466)  count 65 vs 80.5  position chi2 2.9 p 0.239
+     B  value F   <- plaintext EA  (Eng 0.0085)  count 9 vs 14.6  position chi2 1.5 p 0.222
+     B  value Y   <- plaintext C   (Eng 0.0334)  count 62 vs 57.6  position chi2 3.4 p 0.183
+     B  value I   <- plaintext C   (Eng 0.0334)  count 60 vs 57.6  position chi2 3.5 p 0.178
+     B  value R   <- plaintext H   (Eng 0.0302)  count 51 vs 52.2  position chi2 3.6 p 0.164
+     B  value S   <- plaintext H   (Eng 0.0302)  count 52 vs 52.2  position chi2 4.3 p 0.119
+     B  value AE  <- plaintext M   (Eng 0.0243)  count 49 vs 42.0  position chi2 4.8 p 0.091
+
+== raw ciphertext, segment 11 (1894 values)
+  model A survivors: 205; passed rune X among them: ['AE', 'EA', 'EO', 'G', 'IA', 'J', 'NG', 'OE', 'X']
+  model B survivors: 26
+     B  value E   <- plaintext C   (Eng 0.0334)  count 54 vs 63.2  position chi2 0.3 p 0.855
+     B  value E   <- plaintext M   (Eng 0.0243)  count 54 vs 46.0  position chi2 1.2 p 0.536
+     B  value C   <- plaintext L   (Eng 0.0466)  count 70 vs 88.3  position chi2 1.8 p 0.415
+     B  value D   <- plaintext C   (Eng 0.0334)  count 70 vs 63.2  position chi2 2.4 p 0.294
+     B  value EO  <- plaintext M   (Eng 0.0243)  count 52 vs 46.0  position chi2 2.7 p 0.253
+     B  value E   <- plaintext H   (Eng 0.0302)  count 54 vs 57.2  position chi2 3.4 p 0.187
+     B  value EO  <- plaintext C   (Eng 0.0334)  count 52 vs 63.2  position chi2 3.7 p 0.160
+     B  value OE  <- plaintext C   (Eng 0.0334)  count 74 vs 63.2  position chi2 4.2 p 0.123
+     B  value Y   <- plaintext M   (Eng 0.0243)  count 54 vs 46.0  position chi2 5.0 p 0.081
+     B  value G   <- plaintext L   (Eng 0.0466)  count 71 vs 88.3  position chi2 6.1 p 0.047
+     B  value F   <- plaintext C   (Eng 0.0334)  count 71 vs 63.2  position chi2 6.3 p 0.044
+     B  value R   <- plaintext C   (Eng 0.0334)  count 64 vs 63.2  position chi2 6.3 p 0.043
+
+== autokey-removed, segment 11 (1893 values)
+  model A survivors: 197; passed rune X among them: ['AE', 'B', 'EA', 'EO', 'G', 'IA', 'J', 'NG', 'OE', 'P', 'X', 'Y']
+  model B survivors: 22
+     B  value A   <- plaintext C   (Eng 0.0334)  count 63 vs 63.1  position chi2 1.7 p 0.427
+     B  value NG  <- plaintext M   (Eng 0.0243)  count 54 vs 46.0  position chi2 2.1 p 0.341
+     B  value F   <- plaintext EA  (Eng 0.0085)  count 10 vs 16.0  position chi2 1.5 p 0.226
+     B  value R   <- plaintext L   (Eng 0.0466)  count 70 vs 88.2  position chi2 3.8 p 0.151
+     B  value N   <- plaintext L   (Eng 0.0466)  count 73 vs 88.2  position chi2 3.8 p 0.151
+     B  value O   <- plaintext L   (Eng 0.0466)  count 73 vs 88.2  position chi2 4.9 p 0.085
+     B  value G   <- plaintext M   (Eng 0.0243)  count 51 vs 46.0  position chi2 4.9 p 0.085
+     B  value C   <- plaintext M   (Eng 0.0243)  count 57 vs 46.0  position chi2 4.9 p 0.084
+     B  value TH  <- plaintext C   (Eng 0.0334)  count 75 vs 63.1  position chi2 5.4 p 0.068
+     B  value E   <- plaintext M   (Eng 0.0243)  count 59 vs 46.0  position chi2 5.7 p 0.057
+     B  value P   <- plaintext C   (Eng 0.0334)  count 70 vs 63.1  position chi2 5.8 p 0.055
+     B  value U   <- plaintext L   (Eng 0.0466)  count 72 vs 88.2  position chi2 6.4 p 0.040
+
+== raw ciphertext, segment 12 (1021 values)
+  model A survivors: 248; passed rune X among them: ['AE', 'B', 'EA', 'EO', 'G', 'IA', 'J', 'M', 'NG', 'OE', 'P', 'X', 'Y']
+  model B survivors: 65
+     B  value TH  <- plaintext L   (Eng 0.0466)  count 37 vs 47.6  position chi2 0.2 p 0.887
+     B  value IA  <- plaintext L   (Eng 0.0466)  count 35 vs 47.6  position chi2 0.3 p 0.851
+     B  value I   <- plaintext L   (Eng 0.0466)  count 35 vs 47.6  position chi2 0.3 p 0.846
+     B  value N   <- plaintext C   (Eng 0.0334)  count 39 vs 34.1  position chi2 0.4 p 0.832
+     B  value L   <- plaintext M   (Eng 0.0243)  count 34 vs 24.8  position chi2 0.5 p 0.770
+     B  value S   <- plaintext L   (Eng 0.0466)  count 43 vs 47.6  position chi2 0.9 p 0.637
+     B  value P   <- plaintext M   (Eng 0.0243)  count 34 vs 24.8  position chi2 1.1 p 0.573
+     B  value D   <- plaintext M   (Eng 0.0243)  count 25 vs 24.8  position chi2 1.3 p 0.512
+     B  value D   <- plaintext C   (Eng 0.0334)  count 25 vs 34.1  position chi2 1.5 p 0.472
+     B  value E   <- plaintext C   (Eng 0.0334)  count 42 vs 34.1  position chi2 1.6 p 0.455
+     B  value AE  <- plaintext M   (Eng 0.0243)  count 31 vs 24.8  position chi2 1.6 p 0.450
+     B  value AE  <- plaintext C   (Eng 0.0334)  count 31 vs 34.1  position chi2 1.6 p 0.439
+
+== autokey-removed, segment 12 (1020 values)
+  model A survivors: 248; passed rune X among them: ['AE', 'B', 'EA', 'EO', 'F', 'G', 'IA', 'J', 'M', 'NG', 'OE', 'P', 'X', 'Y']
+  model B survivors: 66
+     B  value L   <- plaintext M   (Eng 0.0243)  count 30 vs 24.8  position chi2 0.1 p 0.951
+     B  value N   <- plaintext L   (Eng 0.0466)  count 45 vs 47.5  position chi2 0.5 p 0.783
+     B  value L   <- plaintext C   (Eng 0.0334)  count 30 vs 34.0  position chi2 1.2 p 0.559
+     B  value OE  <- plaintext L   (Eng 0.0466)  count 37 vs 47.5  position chi2 1.2 p 0.548
+     B  value I   <- plaintext C   (Eng 0.0334)  count 28 vs 34.0  position chi2 1.3 p 0.524
+     B  value M   <- plaintext L   (Eng 0.0466)  count 34 vs 47.5  position chi2 1.3 p 0.523
+     B  value J   <- plaintext L   (Eng 0.0466)  count 35 vs 47.5  position chi2 1.7 p 0.426
+     B  value AE  <- plaintext M   (Eng 0.0243)  count 34 vs 24.8  position chi2 1.8 p 0.412
+     B  value L   <- plaintext H   (Eng 0.0302)  count 30 vs 30.8  position chi2 1.9 p 0.396
+     B  value I   <- plaintext M   (Eng 0.0243)  count 28 vs 24.8  position chi2 2.1 p 0.349
+     B  value H   <- plaintext M   (Eng 0.0243)  count 32 vs 24.8  position chi2 2.4 p 0.294
+     B  value IA  <- plaintext C   (Eng 0.0334)  count 40 vs 34.0  position chi2 2.6 p 0.269
+
+== raw ciphertext, segment 13 (1524 values)
+  model A survivors: 217; passed rune X among them: ['AE', 'EA', 'EO', 'G', 'IA', 'J', 'NG', 'OE', 'P', 'X']
+  model B survivors: 30
+     B  value U   <- plaintext M   (Eng 0.0243)  count 45 vs 37.0  position chi2 0.3 p 0.854
+     B  value U   <- plaintext C   (Eng 0.0334)  count 45 vs 50.8  position chi2 1.2 p 0.562
+     B  value IA  <- plaintext L   (Eng 0.0466)  count 56 vs 71.0  position chi2 1.3 p 0.528
+     B  value S   <- plaintext M   (Eng 0.0243)  count 49 vs 37.0  position chi2 2.1 p 0.346
+     B  value EO  <- plaintext M   (Eng 0.0243)  count 48 vs 37.0  position chi2 2.3 p 0.318
+     B  value U   <- plaintext H   (Eng 0.0302)  count 45 vs 46.0  position chi2 2.6 p 0.267
+     B  value O   <- plaintext C   (Eng 0.0334)  count 53 vs 50.8  position chi2 3.5 p 0.171
+     B  value W   <- plaintext C   (Eng 0.0334)  count 61 vs 50.8  position chi2 3.7 p 0.160
+     B  value C   <- plaintext M   (Eng 0.0243)  count 40 vs 37.0  position chi2 4.0 p 0.135
+     B  value NG  <- plaintext C   (Eng 0.0334)  count 51 vs 50.8  position chi2 4.1 p 0.129
+     B  value A   <- plaintext C   (Eng 0.0334)  count 57 vs 50.8  position chi2 4.3 p 0.114
+     B  value EA  <- plaintext C   (Eng 0.0334)  count 53 vs 50.8  position chi2 4.4 p 0.110
+
+== autokey-removed, segment 13 (1523 values)
+  model A survivors: 212; passed rune X among them: ['AE', 'B', 'EA', 'EO', 'G', 'IA', 'J', 'NG', 'OE', 'P', 'X', 'Y']
+  model B survivors: 27
+     B  value TH  <- plaintext C   (Eng 0.0334)  count 49 vs 50.8  position chi2 0.2 p 0.915
+     B  value G   <- plaintext C   (Eng 0.0334)  count 52 vs 50.8  position chi2 0.4 p 0.838
+     B  value P   <- plaintext C   (Eng 0.0334)  count 46 vs 50.8  position chi2 0.5 p 0.785
+     B  value OE  <- plaintext C   (Eng 0.0334)  count 48 vs 50.8  position chi2 0.7 p 0.708
+     B  value P   <- plaintext M   (Eng 0.0243)  count 46 vs 37.0  position chi2 0.7 p 0.691
+     B  value F   <- plaintext G   (Eng 0.0122)  count 13 vs 18.6  position chi2 0.5 p 0.500
+     B  value TH  <- plaintext M   (Eng 0.0243)  count 49 vs 37.0  position chi2 1.6 p 0.452
+     B  value P   <- plaintext H   (Eng 0.0302)  count 46 vs 46.0  position chi2 2.3 p 0.319
+     B  value OE  <- plaintext M   (Eng 0.0243)  count 48 vs 37.0  position chi2 2.5 p 0.285
+     B  value TH  <- plaintext H   (Eng 0.0302)  count 49 vs 46.0  position chi2 3.6 p 0.167
+     B  value H   <- plaintext C   (Eng 0.0334)  count 51 vs 50.8  position chi2 4.1 p 0.129
+     B  value G   <- plaintext H   (Eng 0.0302)  count 52 vs 46.0  position chi2 5.3 p 0.071
+
+== raw ciphertext, segment 14 (1589 values)
+  model A survivors: 205; passed rune X among them: ['AE', 'B', 'EA', 'EO', 'G', 'IA', 'J', 'NG', 'OE', 'P', 'X', 'Y']
+  model B survivors: 29
+     B  value OE  <- plaintext L   (Eng 0.0466)  count 63 vs 74.1  position chi2 1.3 p 0.525
+     B  value U   <- plaintext L   (Eng 0.0466)  count 64 vs 74.1  position chi2 1.3 p 0.522
+     B  value S   <- plaintext L   (Eng 0.0466)  count 57 vs 74.1  position chi2 1.7 p 0.424
+     B  value P   <- plaintext M   (Eng 0.0243)  count 51 vs 38.6  position chi2 1.8 p 0.407
+     B  value NG  <- plaintext C   (Eng 0.0334)  count 55 vs 53.0  position chi2 2.2 p 0.340
+     B  value J   <- plaintext M   (Eng 0.0243)  count 50 vs 38.6  position chi2 2.4 p 0.308
+     B  value M   <- plaintext C   (Eng 0.0334)  count 54 vs 53.0  position chi2 2.6 p 0.273
+     B  value N   <- plaintext H   (Eng 0.0302)  count 59 vs 48.0  position chi2 2.7 p 0.261
+     B  value N   <- plaintext C   (Eng 0.0334)  count 59 vs 53.0  position chi2 2.8 p 0.247
+     B  value TH  <- plaintext U   (Eng 0.0383)  count 50 vs 60.8  position chi2 2.9 p 0.230
+     B  value F   <- plaintext M   (Eng 0.0243)  count 37 vs 38.6  position chi2 3.2 p 0.204
+     B  value Y   <- plaintext L   (Eng 0.0466)  count 58 vs 74.1  position chi2 3.4 p 0.183
+
+== autokey-removed, segment 14 (1588 values)
+  model A survivors: 209; passed rune X among them: ['AE', 'B', 'EA', 'EO', 'G', 'IA', 'J', 'M', 'NG', 'OE', 'P', 'X', 'Y']
+  model B survivors: 28
+     B  value X   <- plaintext C   (Eng 0.0334)  count 49 vs 53.0  position chi2 0.2 p 0.906
+     B  value X   <- plaintext M   (Eng 0.0243)  count 49 vs 38.6  position chi2 1.3 p 0.524
+     B  value N   <- plaintext C   (Eng 0.0334)  count 56 vs 53.0  position chi2 1.4 p 0.506
+     B  value T   <- plaintext M   (Eng 0.0243)  count 48 vs 38.6  position chi2 1.7 p 0.433
+     B  value F   <- plaintext G   (Eng 0.0122)  count 12 vs 19.4  position chi2 0.7 p 0.394
+     B  value X   <- plaintext H   (Eng 0.0302)  count 49 vs 48.0  position chi2 3.0 p 0.219
+     B  value J   <- plaintext M   (Eng 0.0243)  count 46 vs 38.6  position chi2 3.6 p 0.165
+     B  value M   <- plaintext M   (Eng 0.0243)  count 48 vs 38.6  position chi2 3.7 p 0.158
+     B  value NG  <- plaintext C   (Eng 0.0334)  count 61 vs 53.0  position chi2 3.9 p 0.142
+     B  value H   <- plaintext M   (Eng 0.0243)  count 48 vs 38.6  position chi2 4.0 p 0.135
+     B  value EA  <- plaintext C   (Eng 0.0334)  count 54 vs 53.0  position chi2 4.9 p 0.086
+     B  value E   <- plaintext L   (Eng 0.0466)  count 60 vs 74.0  position chi2 5.0 p 0.084
+
+== raw ciphertext, segment 15 (3316 values)
+  model A survivors: 173; passed rune X among them: ['AE', 'EA', 'EO', 'G', 'IA', 'J', 'NG', 'OE', 'X']
+  model B survivors: 5
+     B  value G   <- plaintext M   (Eng 0.0243)  count 97 vs 80.5  position chi2 6.2 p 0.045
+     B  value EO  <- plaintext C   (Eng 0.0334)  count 113 vs 110.6  position chi2 6.8 p 0.034
+     B  value M   <- plaintext C   (Eng 0.0334)  count 119 vs 110.6  position chi2 6.8 p 0.033
+     B  value F   <- plaintext C   (Eng 0.0334)  count 131 vs 110.6  position chi2 8.9 p 0.012
+     B  value J   <- plaintext L   (Eng 0.0466)  count 130 vs 154.5  position chi2 9.1 p 0.010
+
+== autokey-removed, segment 15 (3315 values)
+  model A survivors: 177; passed rune X among them: ['AE', 'EA', 'EO', 'G', 'IA', 'J', 'NG', 'OE', 'X']
+  model B survivors: 4
+     B  value D   <- plaintext L   (Eng 0.0466)  count 134 vs 154.5  position chi2 5.8 p 0.055
+     B  value EA  <- plaintext C   (Eng 0.0334)  count 107 vs 110.6  position chi2 6.5 p 0.039
+     B  value H   <- plaintext C   (Eng 0.0334)  count 99 vs 110.6  position chi2 9.0 p 0.011
+     B  value EO  <- plaintext C   (Eng 0.0334)  count 122 vs 110.6  position chi2 9.1 p 0.010

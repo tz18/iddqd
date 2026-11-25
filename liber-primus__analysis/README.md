@@ -191,3 +191,12 @@ final 22% (19 word-final vs 3.3 expected), chi2 101 vs EA but 1.9 vs a random ru
 the pair instead is no better (23 final). No plaintext rune with a ~0.7% frequency fits; the best position-profile fit
 (M) has frequency 2.4%. The doublet positions ignore word structure: the rare zero looks key/cipher-driven, not a
 plaintext letter (assuming word breaks are plaintext word boundaries).
+
+## passthrough_full.py (results/passthrough_full.txt)
+Full pass-through search: every stream value v x every English rune X (relabelled pass-through allowed), model A
+(rest also produces v: count n(f+(1-f)/29), position profile = mixture) and model B (rest never produces v: count n*f,
+profile = X's English word-position profile); raw and autokey-removed; whole text and each section. A pair survives
+if count within 2 sd and position chi2 p > 0.01. Whole text: model B 0 survivors in either stream; model A survivors
+only for runes rarer than ~0.9% (AE, EO, IA, J, OE, X, EA), which add too few occurrences to show. Per section the
+tests are weak: model B survivors are many and scattered (92 in seg 7, 4-5 in seg 15, the largest), always mid-frequency
+letters with flat position profiles (C, M, L, H) - consistent with low power, not with a specific skip rune.
