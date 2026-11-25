@@ -247,3 +247,10 @@ CARNAL 320, OBSCURA 245, FORM 91, MOBIUS 226, ANALOG 320, MOURNFUL 199, CABAL 34
 and diagonals sum to 1033). A plaintext of content words only (Blake minus function words) does NOT fit the unsolved
 word lengths: 2-rune share 1% vs 15.5%, mean 5.5-5.8 vs 4.47 (chi2 5,800-11,400). Closest is all English words spelled
 letter by letter (chi2 60, 9 df), with order removed for the lag-1.
+
+## sum_to_blake.py (results/sum_to_blake.txt)
+Reverse codebook (GP sum -> Blake word) applied to the unsolved ciphertext words. Note only SHADOWS, VOID, FORM,
+MOURNFUL (and OBSCURA once) of the Some Wisdom square's words occur in Blake; AETHEREAL, BUFFERS, CARNAL, MOBIUS,
+ANALOG, CABAL do not. Coverage of unsolved word sums by Urizen words 0.822 vs 0.821 for random runes of the same word
+lengths (all Blake 0.988 vs 0.989); adjacent decoded words forming a Blake word pair: 0.020 vs 0.022 (all Blake 0.300 vs
+0.302). All |z| < 1.2. The decoding reads Blake-like only because the vocabulary is Blake's.

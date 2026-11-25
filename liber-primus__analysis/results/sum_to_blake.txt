@@ -1,0 +1,6 @@
+Urizen, LP spelling              vocab   1007 | coverage 0.822 (null 0.821 +/- 0.006, z +0.25) | Blake-pair rate 0.020 (null 0.022 +/- 0.003, z -0.69)
+   first 80 unsolved words decoded (most frequent Urizen word per sum, · = none):
+   ENITHARMON EXPLORE SHRINK FEAR · HABITATION SIGHT MIND LOS · MOUNTAIN CHAIN LAWS · INTO POUR · COULD EARTHQUAK AGES · POUR EYES AS · ROCK FURY · COMBINING WHEELS AGES LAY FAWNING MOUNTAIN OUT BEHOLD THOUSANDS ABYSS WORDS FISH BLACK STRUGLING · TENT SAID AS · DOLOROUS LIFE COULD FORMLESS BELLOWS ON DEGREES · DEADLY THAT VISAGE MANY PASSED · SOUL THEY GROANING THEIR UPON FIRE ASUNDER ANGUISH STRONG UP SIEZ EARTHQUAK AROSE DEEP VOICE FORMED VII MY N
+Urizen, letter by letter         vocab   1007 | coverage 0.807 (null 0.806 +/- 0.007, z +0.16) | Blake-pair rate 0.028 (null 0.024 +/- 0.004, z +1.13)
+all Blake, LP spelling           vocab  13634 | coverage 0.988 (null 0.989 +/- 0.002, z -0.72) | Blake-pair rate 0.300 (null 0.302 +/- 0.010, z -0.20)
+all Blake, letter by letter      vocab  13634 | coverage 0.983 (null 0.984 +/- 0.002, z -0.40) | Blake-pair rate 0.309 (null 0.304 +/- 0.009, z +0.49)
