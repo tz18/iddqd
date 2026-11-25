@@ -149,3 +149,8 @@ Tests a cipher that keeps GP sums. Word level: English reuses a few words, so fo
 but English has ~45 (either spelling) and the unsolved ciphertext 51.6 +/- 0.3, so sums cannot be preserved
 overall; even the 18 short prime clauses average 51.6 per rune (English expectation 45 +/- 1.9). The short clauses
 are as random as the rest (unigram chi2, doublet rate).
+
+## prime_clauses_robustness.py (results/prime_clauses_robustness.txt)
+The unsolved short-clause prime excess is spread out: segments 7-11 (8/24, z 2.3) and 12-15 (10/30, z 3.1); LP1
+unsolved pages 16/45 (z 3.7), LP2 unsolved pages only 9 short clauses (2/9). It holds when "short" is counted in
+words (<= 5, 6 or 8 words: z 3.3-3.5). Paragraph-first short clauses are prime 6/13, others 12/41 (heading-like, small n).

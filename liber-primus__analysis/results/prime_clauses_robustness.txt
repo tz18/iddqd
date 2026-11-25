@@ -1,0 +1,11 @@
+LP1 unsolved (pages <=57)    short clauses  45  prime  16  null   7.1  z  3.69  p 0.0020
+LP2 unsolved (pages >=58)    short clauses   9  prime   2  null   1.3  z  0.71  p 0.3640
+segments 7-11                short clauses  24  prime   8  null   4.0  z  2.28  p 0.0303
+segments 12-15               short clauses  30  prime  10  null   4.3  z  3.05  p 0.0060
+<= 3 words: n= 23 prime   6 null   3.9 z  1.17 p 0.1787
+<= 4 words: n= 32 prime   9 null   5.2 z  1.88 p 0.0583
+<= 5 words: n= 40 prime  14 null   6.3 z  3.45 p 0.0010
+<= 6 words: n= 48 prime  16 null   7.4 z  3.49 p 0.0013
+<= 8 words: n= 60 prime  18 null   9.0 z  3.32 p 0.0017
+first clause of a paragraph  short clauses  13, prime 6
+elsewhere                    short clauses  41, prime 12
