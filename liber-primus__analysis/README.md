@@ -104,3 +104,31 @@ not a valid private exponent; gcd(S, n) = 1. As a modulus: small factors (2,5,43
 cofactor, no close-prime Fermat factorisation, not a perfect power. As an LP key it scores at random level.
 A real signature from a 4096-bit key is 4096 bits long, so a 2048-bit block cannot be one of Cicada's signatures
 (chance 2^-2048); if it is a signature it is from some other, 2048-bit key.
+
+## lp_common.py
+Shared loader: every rune with page, line, column, word, clause, segment, glyph box, and the plaintext of solved
+segments (workbench default ciphers and F-skips; decryption checked against the published text).
+
+## views_calculus.py (results/views_calculus.txt)
+Other "coigns of vantage" and calculus transforms, each scored with the structure battery against 40 nulls that
+keep the page/line/word layout, rune frequencies and doublet rate. Views: pages rotated (read down columns, either
+way), the 3D page stack (same line/column cell through all pages), acrostics (word/line/clause first and last
+runes). Calculus: finite differences of order 1-3, running sums of order 1-2, formal derivative/integral over GF(29)
+(c*i, c/i, i = position in page/line/word), differences and sums down columns. All 23 views at chance (best
+p = 0.05 among 23) except line-first runes, which is the known typesetting effect (wide glyphs EA, M, D wrapped to
+the next line when a word is split; `line_breaks.py`).
+
+## solved_sums.py (results/solved_sums.txt)
+"Book of primes": GP sums of words, clauses, lines, paragraphs, pages and sections of the solved segments, pt and
+ct, vs a length-preserving shuffle null. Clause sums are prime far beyond chance in the plaintext (45 of 94, null
+13.7, z 9.2); nothing at word, line, paragraph, page or section level.
+
+## prime_clauses_channels.py (results/prime_clauses_channels.txt)
+(1) The solved prime-clause effect is entirely in short (<= 31 rune) maxim-like clauses (39/59, z 11.2; long 6/35,
+chance). Ciphertext of the encrypted solved sections loses it. The UNSOLVED ciphertext shows it too: short clauses
+18/54 prime vs 8.3 (z 3.7, p 0.0008; robust for cutoffs 25-50 runes), not explained by parity or small factors
+(18 of 22 sums coprime to 30 are prime), absent for words, lines, pages, paragraphs. Cutoff taken from the solved
+pages; about six units were looked at, so treat as p ~ 0.005-0.01. One sum is 1033.
+(2) Word lengths, the visible channel: English in runes (solved LP, Blake) has ~25% 2-rune words and lag-1
+correlation -0.10 to -0.14; the unsolved text has 15.5% and -0.015 (shuffled 0.000 +/- 0.019). The unsolved word
+breaks do not behave like English word lengths.

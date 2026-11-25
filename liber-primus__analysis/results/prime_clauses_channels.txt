@@ -1,0 +1,17 @@
+solved pt all clauses                  n= 94 prime  45  null  13.7  z  9.23  p 0.0000
+solved ct all clauses                  n= 94 prime  30  null  13.3  z  5.00  p 0.0000
+solved pt short clauses (<=31 runes)   n= 59 prime  39  null   9.2  z 11.23  p 0.0000
+solved ct short clauses (<=31 runes)   n= 59 prime  25  null   9.0  z  5.93  p 0.0000
+solved pt long clauses (>31 runes)     n= 35 prime   6  null   4.5  z  0.78  p 0.2858
+solved ct long clauses (>31 runes)     n= 35 prime   5  null   4.4  z  0.32  p 0.4532
+UNSOLVED ct all clauses                  n=168 prime  31  null  21.8  z  2.07  p 0.0278
+UNSOLVED ct short clauses (<=31 runes)   n= 54 prime  18  null   8.2  z  3.81  p 0.0005
+
+word lengths in runes: solved pt mean 4.03 sd 2.20 | unsolved mean 4.47 sd 2.32
+  share by length 1..14+:
+   solved   0.037 0.241 0.238 0.176 0.077 0.088 0.064 0.034 0.022 0.012 0.005 0.003 0.003 0.001
+   unsolved 0.029 0.155 0.249 0.177 0.109 0.088 0.075 0.054 0.027 0.018 0.011 0.006 0.001 0.001
+  chi2 (13 df) = 44.3  (13 expected if same distribution)
+  lag-1 correlation of word lengths: solved -0.092, unsolved -0.015 (shuffled unsolved -0.000 +/- 0.019)
+  English reference (Blake MHH, 4763 words): mean 3.96, 2-rune share 0.258, lag-1 -0.137
+  unsolved: 2-rune share 0.155 (binomial SE 0.008), lag-1 SE ~ 0.019

@@ -1,0 +1,29 @@
+
+=== plaintext of solved segments (2977 runes)
+unit           n prime sums null mean      z  p(>=) | sum%29==0  null
+word         739        136     145.3  -1.07  0.873 |        20  23.8
+clause        94         45      13.6   9.51  0.000 |         1   3.3
+line         157         21      26.0  -1.16  0.897 |        11   5.5
+paragraph     16          3       1.9   0.85  0.294 |         0   0.6
+page          17          3       1.9   0.84  0.294 |         1   0.6
+section        9          2       1.0   1.09  0.251 |         0   0.3
+
+=== ciphertext of solved segments (2977 runes)
+unit           n prime sums null mean      z  p(>=) | sum%29==0  null
+word         739        124     142.1  -2.06  0.984 |        14  24.6
+clause        94         30      13.4   5.08  0.000 |         2   3.3
+line         157         22      25.5  -0.80  0.816 |         9   5.4
+paragraph     16          1       1.9  -0.71  0.873 |         0   0.5
+page          17          3       1.8   0.90  0.279 |         0   0.6
+section        9          1       0.9   0.07  0.625 |         0   0.3
+
+section sums (pt / ct) and primality:
+  A Warning                    runes  184  pt   7409        ct  11417
+  Welcome                      runes  515  pt  23012        ct  26020
+  Some Wisdom                  runes  157  pt   7028        ct   7028
+  A Koan                       runes  778  pt  36291        ct  44163
+  The Loss of Divinity         runes  755  pt  32811        ct  32811
+  A Koan (the Circumference)   runes  319  pt  15331 prime  ct  17358
+  An Instruction               runes   89  pt   3329 prime  ct   3329 prime
+  An End                       runes   85  pt   3920        ct   4184
+  Parable                      runes   95  pt   3968        ct   3968

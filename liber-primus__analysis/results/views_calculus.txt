@@ -1,0 +1,24 @@
+view                                                n combined z       top metric      p
+reading order                                   12956       1.06      lag repeats   0.60
+rotated: read down columns                      12956       1.40   5-gram repeats   0.47
+rotated other way (up, right-to-left)           12956       1.44   5-gram repeats   0.40
+3D depth: same cell through pages               12956       1.02      lag repeats   0.72
+acrostic: word first runes                       2896       1.04         doublets   0.78
+telestich: word last runes                       2896       1.16     periodic IoC   0.72
+line first runes                                  594       8.23          unigram   0.00
+line last runes                                   594       1.59      lag repeats   0.33
+clause first runes                                168       0.81          unigram   0.65
+d/dx order 1 (= autokey removal)                12947       1.03      lag repeats   0.60
+d/dx order 2                                    12938       1.51      lag repeats   0.45
+d/dx order 3                                    12929       1.81          unigram   0.30
+integral order 1 (running sum)                  12956       1.15     periodic IoC   0.60
+integral order 2                                12956       2.32         doublets   0.12
+d/dx down columns                               11620       2.18      lag repeats   0.17
+integral down columns                           12956       2.53      lag repeats   0.07
+formal derivative c*i, i in page                12529       3.20         doublets   0.05
+formal integral c/i, i in page                  12529       1.99  compressibility   0.17
+formal derivative c*i, i in line                12956       0.67  compressibility   0.93
+formal integral c/i, i in line                  12956       0.94         doublets   0.68
+formal derivative c*i, i in word                12956       1.20           bigram   0.68
+formal integral c/i, i in word                  12956       1.26      lag repeats   0.53
+formal integral of d/dx (c_i-c_i-1)/i, page     12529       0.87  compressibility   0.68
