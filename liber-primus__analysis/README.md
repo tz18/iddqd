@@ -169,3 +169,10 @@ keyed 29x29 table), the ciphertext runes sharing a key rune have plaintext IoC w
 IoC within the 29 key-value buckets. Calibration with the true applied keys: Welcome 2.33 (random keys 1.18 +/- 0.09),
 Koan 2 1.95 (1.13 +/- 0.14), An End 1.69 (0.90 +/- 0.5). The prime-clause keys (31 or 18 short, forward/reversed, raw or
 autokey-removed, with/without F-skip) and the solved LP prime plaintext: all at control level (|z| < 2).
+
+## passthrough_rune.py (results/passthrough_rune.txt)
+Which rune passes through unencrypted? Model A: freq(X) = f_X + (1-f_X)/29; model B (encrypted runes never land on X):
+freq(X) = f_X. Raw ciphertext, whole text and each section: no rune with English frequency above ~0.5% fits (F, Y, B...
+strongly rejected); only the rarest (X, J, AE) are indistinguishable from "none". Autokey-removed stream: the zero
+symbol (doublets) is at 0.66% +/- 0.07%, which model B fits overwhelmingly (+177 log-lik vs uniform). Runes with that
+English frequency: EA 0.67% and IA 0.54% in LP spelling; in letter-by-letter spelling no rune is close (X, J 0.18%).

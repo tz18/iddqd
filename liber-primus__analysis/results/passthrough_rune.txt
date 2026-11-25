@@ -1,0 +1,66 @@
+
+== all unsolved, raw ciphertext: 12956 runes
+  [LP spelling] model A best: X (f=0.002, obs 0.035, dLL +0.0), J (f=0.001, obs 0.035, dLL -0.1), AE (f=0.001, obs 0.034, dLL -0.1), IA (f=0.005, obs 0.036, dLL -1.4)
+  [LP spelling] model B best: W (f=0.033, obs 0.031, dLL +1.7), H (f=0.030, obs 0.032, dLL +0.6), L (f=0.037, obs 0.036, dLL -0.0), TH (f=0.039, obs 0.035, dLL -2.1)
+  [letter-by-letter] model A best: X (f=0.002, obs 0.035, dLL -0.0), J (f=0.002, obs 0.035, dLL -0.4), Y (f=0.015, obs 0.035, dLL -32.5), B (f=0.018, obs 0.034, dLL -45.9)
+  [letter-by-letter] model B best: U (f=0.034, obs 0.035, dLL -0.2), D (f=0.036, obs 0.034, dLL -0.9), C (f=0.032, obs 0.034, dLL -1.5), W (f=0.026, obs 0.031, dLL -4.1)
+
+== all unsolved, autokey-removed stream: 12947 runes
+  [LP spelling] model A best: X (f=0.002, obs 0.037, dLL +0.8), AE (f=0.001, obs 0.036, dLL +0.3), J (f=0.001, obs 0.035, dLL +0.1), IA (f=0.005, obs 0.037, dLL -0.6)
+  [LP spelling] model B best: F (f=0.016, obs 0.007, dLL +176.9), TH (f=0.039, obs 0.039, dLL +3.7), D (f=0.039, obs 0.038, dLL +1.2), L (f=0.037, obs 0.036, dLL +0.4)
+  [letter-by-letter] model A best: X (f=0.002, obs 0.037, dLL +0.8), J (f=0.002, obs 0.035, dLL -0.1), P (f=0.019, obs 0.039, dLL -22.9), Y (f=0.015, obs 0.035, dLL -29.0)
+  [letter-by-letter] model B best: F (f=0.024, obs 0.007, dLL +105.9), D (f=0.036, obs 0.038, dLL +1.4), U (f=0.034, obs 0.035, dLL -0.4), C (f=0.032, obs 0.034, dLL -1.8)
+
+== segment 7, raw ciphertext: 729 runes
+  [LP spelling] model A best: F (f=0.016, obs 0.047, dLL +1.4), X (f=0.002, obs 0.038, dLL +0.1), EA (f=0.007, obs 0.038, dLL +0.1), NG (f=0.010, obs 0.040, dLL +0.1)
+  [LP spelling] model B best: M (f=0.026, obs 0.025, dLL +1.2), D (f=0.039, obs 0.043, dLL +0.6), TH (f=0.039, obs 0.041, dLL +0.4), L (f=0.037, obs 0.041, dLL +0.3)
+  [letter-by-letter] model A best: F (f=0.024, obs 0.047, dLL +0.6), X (f=0.002, obs 0.038, dLL +0.1), J (f=0.002, obs 0.033, dLL -0.1), G (f=0.021, obs 0.040, dLL -1.5)
+  [letter-by-letter] model B best: M (f=0.022, obs 0.025, dLL +1.1), L (f=0.045, obs 0.041, dLL +0.3), D (f=0.036, obs 0.043, dLL +0.3), U (f=0.034, obs 0.029, dLL +0.1)
+
+== segment 8, raw ciphertext: 1145 runes
+  [LP spelling] model A best: EA (f=0.007, obs 0.044, dLL +1.2), IA (f=0.005, obs 0.040, dLL +0.5), X (f=0.002, obs 0.043, dLL +0.4), J (f=0.001, obs 0.038, dLL +0.1)
+  [LP spelling] model B best: F (f=0.016, obs 0.023, dLL +1.3), L (f=0.037, obs 0.044, dLL +0.6), W (f=0.033, obs 0.026, dLL +0.4), H (f=0.030, obs 0.033, dLL -0.1)
+  [letter-by-letter] model A best: X (f=0.002, obs 0.043, dLL +0.4), J (f=0.002, obs 0.038, dLL +0.1), Y (f=0.015, obs 0.037, dLL -2.0), C (f=0.032, obs 0.045, dLL -2.1)
+  [letter-by-letter] model B best: F (f=0.024, obs 0.023, dLL +2.6), L (f=0.045, obs 0.044, dLL +1.3), W (f=0.026, obs 0.026, dLL +1.3), U (f=0.034, obs 0.030, dLL +0.1)
+
+== segment 9, raw ciphertext: 1729 runes
+  [LP spelling] model A best: X (f=0.002, obs 0.045, dLL +0.8), IA (f=0.005, obs 0.039, dLL +0.6), AE (f=0.001, obs 0.030, dLL -0.2), EA (f=0.007, obs 0.037, dLL -0.2)
+  [LP spelling] model B best: TH (f=0.039, obs 0.040, dLL +0.7), H (f=0.030, obs 0.030, dLL +0.5), W (f=0.033, obs 0.032, dLL +0.2), L (f=0.037, obs 0.036, dLL +0.1)
+  [letter-by-letter] model A best: X (f=0.002, obs 0.045, dLL +0.9), J (f=0.002, obs 0.025, dLL -0.8), Y (f=0.015, obs 0.035, dLL -3.9), F (f=0.024, obs 0.038, dLL -6.6)
+  [letter-by-letter] model B best: U (f=0.034, obs 0.040, dLL -0.2), D (f=0.036, obs 0.029, dLL -0.5), C (f=0.032, obs 0.036, dLL -0.6), W (f=0.026, obs 0.032, dLL -1.0)
+
+== segment 10, raw ciphertext: 9 runes
+  [LP spelling] model A best: A (f=0.072, obs 0.222, dLL +1.7), U (f=0.051, obs 0.111, dLL +0.5), L (f=0.037, obs 0.111, dLL +0.4), Y (f=0.027, obs 0.111, dLL +0.3)
+  [LP spelling] model B best: A (f=0.072, obs 0.222, dLL +1.2), AE (f=0.001, obs 0.000, dLL +0.3), J (f=0.001, obs 0.000, dLL +0.3), X (f=0.002, obs 0.000, dLL +0.3)
+  [letter-by-letter] model A best: A (f=0.074, obs 0.222, dLL +1.7), L (f=0.045, obs 0.111, dLL +0.4), U (f=0.034, obs 0.111, dLL +0.4), F (f=0.024, obs 0.111, dLL +0.3)
+  [letter-by-letter] model B best: A (f=0.074, obs 0.222, dLL +1.2), J (f=0.002, obs 0.000, dLL +0.3), X (f=0.002, obs 0.000, dLL +0.3), L (f=0.045, obs 0.111, dLL +0.2)
+
+== segment 11, raw ciphertext: 1894 runes
+  [LP spelling] model A best: IA (f=0.005, obs 0.041, dLL +1.0), J (f=0.001, obs 0.040, dLL +0.3), AE (f=0.001, obs 0.035, dLL +0.0), X (f=0.002, obs 0.033, dLL -0.2)
+  [LP spelling] model B best: H (f=0.030, obs 0.027, dLL +1.3), Y (f=0.027, obs 0.029, dLL +0.9), TH (f=0.039, obs 0.040, dLL +0.7), W (f=0.033, obs 0.026, dLL +0.7)
+  [letter-by-letter] model A best: J (f=0.002, obs 0.040, dLL +0.4), X (f=0.002, obs 0.033, dLL -0.2), P (f=0.019, obs 0.038, dLL -4.0), G (f=0.021, obs 0.037, dLL -6.0)
+  [letter-by-letter] model B best: W (f=0.026, obs 0.026, dLL +2.0), D (f=0.036, obs 0.037, dLL +0.2), U (f=0.034, obs 0.033, dLL +0.0), C (f=0.032, obs 0.037, dLL -0.7)
+
+== segment 12, raw ciphertext: 1021 runes
+  [LP spelling] model A best: EA (f=0.007, obs 0.040, dLL +0.5), AE (f=0.001, obs 0.030, dLL -0.1), X (f=0.002, obs 0.031, dLL -0.2), J (f=0.001, obs 0.026, dLL -0.3)
+  [LP spelling] model B best: C (f=0.031, obs 0.029, dLL +0.4), U (f=0.051, obs 0.043, dLL +0.3), W (f=0.033, obs 0.032, dLL +0.1), H (f=0.030, obs 0.032, dLL -0.0)
+  [letter-by-letter] model A best: X (f=0.002, obs 0.031, dLL -0.2), J (f=0.002, obs 0.026, dLL -0.4), Y (f=0.015, obs 0.036, dLL -1.9), B (f=0.018, obs 0.036, dLL -2.8)
+  [letter-by-letter] model B best: C (f=0.032, obs 0.029, dLL +0.3), U (f=0.034, obs 0.043, dLL -0.2), D (f=0.036, obs 0.024, dLL -0.6), W (f=0.026, obs 0.032, dLL -0.7)
+
+== segment 13, raw ciphertext: 1524 runes
+  [LP spelling] model A best: B (f=0.013, obs 0.042, dLL +0.7), J (f=0.001, obs 0.037, dLL +0.1), AE (f=0.001, obs 0.033, dLL -0.1), IA (f=0.005, obs 0.037, dLL -0.1)
+  [LP spelling] model B best: C (f=0.031, obs 0.026, dLL +1.2), D (f=0.039, obs 0.039, dLL +0.5), L (f=0.037, obs 0.036, dLL +0.1), H (f=0.030, obs 0.034, dLL -0.4)
+  [letter-by-letter] model A best: J (f=0.002, obs 0.037, dLL +0.1), X (f=0.002, obs 0.031, dLL -0.4), B (f=0.018, obs 0.042, dLL -0.4), W (f=0.026, obs 0.040, dLL -5.0)
+  [letter-by-letter] model B best: C (f=0.032, obs 0.026, dLL +1.0), D (f=0.036, obs 0.039, dLL +0.3), U (f=0.034, obs 0.030, dLL +0.2), L (f=0.045, obs 0.036, dLL -1.4)
+
+== segment 14, raw ciphertext: 1589 runes
+  [LP spelling] model A best: AE (f=0.001, obs 0.038, dLL +0.1), X (f=0.002, obs 0.035, dLL -0.1), J (f=0.001, obs 0.031, dLL -0.2), IA (f=0.005, obs 0.031, dLL -1.4)
+  [LP spelling] model B best: F (f=0.016, obs 0.023, dLL +1.1), W (f=0.033, obs 0.035, dLL -0.1), L (f=0.037, obs 0.035, dLL -0.1), D (f=0.039, obs 0.035, dLL -0.3)
+  [letter-by-letter] model A best: X (f=0.002, obs 0.035, dLL -0.1), J (f=0.002, obs 0.031, dLL -0.3), Y (f=0.015, obs 0.037, dLL -2.9), B (f=0.018, obs 0.033, dLL -6.7)
+  [letter-by-letter] model B best: F (f=0.024, obs 0.023, dLL +3.3), D (f=0.036, obs 0.035, dLL -0.0), U (f=0.034, obs 0.040, dLL -0.2), C (f=0.032, obs 0.038, dLL -0.8)
+
+== segment 15, raw ciphertext: 3316 runes
+  [LP spelling] model A best: J (f=0.001, obs 0.039, dLL +0.4), AE (f=0.001, obs 0.036, dLL +0.1), X (f=0.002, obs 0.032, dLL -0.5), IA (f=0.005, obs 0.035, dLL -1.0)
+  [LP spelling] model B best: C (f=0.031, obs 0.030, dLL +1.1), H (f=0.030, obs 0.030, dLL +1.0), W (f=0.033, obs 0.029, dLL +0.8), L (f=0.037, obs 0.033, dLL -0.5)
+  [letter-by-letter] model A best: J (f=0.002, obs 0.039, dLL +0.6), X (f=0.002, obs 0.032, dLL -0.6), Y (f=0.015, obs 0.037, dLL -5.6), B (f=0.018, obs 0.036, dLL -9.1)
+  [letter-by-letter] model B best: W (f=0.026, obs 0.029, dLL +1.2), C (f=0.032, obs 0.030, dLL +1.0), U (f=0.034, obs 0.033, dLL +0.1), D (f=0.036, obs 0.033, dLL -0.5)
