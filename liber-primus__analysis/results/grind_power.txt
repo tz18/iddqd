@@ -1,0 +1,4 @@
+(a) solved LP plaintext, Blake dictionary: 106 words of 7+ runes, dictionary coverage 0.72; words with a match: encrypted 91 vs shuffled 43.6 +/- 3.6  -> excess 47 (0.45 per word)
+(b) Jerusalem (letter by letter), Blake-minus-Jerusalem dictionary: 1194 words of 7+ runes, dictionary coverage 0.88; words with a match: encrypted 1094 vs shuffled 431.9 +/- 9.5  -> excess 662 (0.55 per word)
+
+unsolved result for comparison: 209 real vs 206 +/- 6 fakes over 559 words (excess 3, 0.01 per word)

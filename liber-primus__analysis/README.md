@@ -299,3 +299,11 @@ Words with >= 1 match: shift 209 vs fakes 206 +/- 6; Beaufort 205 vs 208 +/- 6; 
 9+ rune word matches anything. If the plaintext were English with long words mostly in this vocabulary, a true per-word
 period-5 shift/Beaufort key would add hundreds of matches: that model is rejected (keyed tables, or vocabulary outside
 Blake/LP, are not).
+
+## grind_power.py (results/grind_power.txt)
+Power of the period-5 grind, measured: known English encrypted with random per-word period-5 shift keys, ground with a
+dictionary that excludes it. Solved LP plaintext vs Blake dictionary: 72% of its 7+ rune words covered, excess matches
+0.45 per word over shuffled (91 vs 43.6 +/- 3.6). Jerusalem vs Blake-minus-Jerusalem: coverage 88%, excess 0.55 per
+word. Unsolved: 0.01 per word (209 vs 206 +/- 6), at most ~0.03 at 2 sd. So a per-word period-5 shift/Beaufort key
+survives only if under roughly 4-5% of the plaintext's long words are in the Blake+LP vocabulary (in either spelling),
+or the spelling/alphabet differs from both tested.
