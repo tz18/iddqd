@@ -290,3 +290,12 @@ lag is allowed; two of the three being at lag 5 is consistent with the lag-5 exc
 The 5-dot graphic is one point set on three pages: page 24 (unsolved), page 40 (unsolved, exact top-bottom mirror of the
 page: y24 + y40 = 3674 for every dot) and page 73 (Parable, exact left-right mirror: x24 + x73 = 2400-2401, shifted up
 420 px). Same pairwise distances on all three (198, 204, 240, 318, 428, 489, 554, 583, 682, 750 px; dots 70 px wide).
+
+## grind_period5.py (results/grind_period5.txt)
+Per-word period-5 key, ground out without enumerating keys: runes j and j+5 share a key value, so for a shift cipher
+p[j+5]-p[j] = c[j+5]-c[j] (Beaufort: the negative; any table: same equality pattern). Each unsolved word of 7+ runes
+(559) checked against dictionary words of the same rune length (Blake corpus + solved LP, ~13.6k words, both spellings).
+Words with >= 1 match: shift 209 vs fakes 206 +/- 6; Beaufort 205 vs 208 +/- 6; pattern-only 557 vs 558 (no power). No
+9+ rune word matches anything. If the plaintext were English with long words mostly in this vocabulary, a true per-word
+period-5 shift/Beaufort key would add hundreds of matches: that model is rejected (keyed tables, or vocabulary outside
+Blake/LP, are not).

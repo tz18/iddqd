@@ -1,0 +1,6 @@
+dictionary entries by length: {7: 2831, 8: 2277, 9: 1805, 10: 1139, 11: 669, 12: 332, 13: 156, 14: 58}
+shift    : words (of 559 with 7+ runes) with >= 1 dictionary match: real 209, fakes 206.2 +/- 6.1, z +0.45, p(fake >= real) 0.37
+beaufort : words (of 559 with 7+ runes) with >= 1 dictionary match: real 205, fakes 207.5 +/- 6.1, z -0.41, p(fake >= real) 0.69
+pattern  : words (of 559 with 7+ runes) with >= 1 dictionary match: real 557, fakes 558.4 +/- 0.8, z -1.79, p(fake >= real) 0.97
+
+matches for unsolved words of 9+ runes (shift / beaufort):
