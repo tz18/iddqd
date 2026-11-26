@@ -1,0 +1,26 @@
+unsolved: 2896 words; expected same-rune rate from frequencies 0.0346
+lag   within-word same    rate  binom z shuffle p(>=) | across-word rate      z
+  1       63 /   10060  0.0063   -15.54        1.0000 |           0.0079  -7.84
+  2      252 /    7247  0.0348    +0.10        0.4500 |           0.0331  -0.59
+  3      181 /    4882  0.0371    +0.96        0.1820 |           0.0320  -1.27
+  4      131 /    3237  0.0405    +1.84        0.0335 |           0.0338  -0.43
+  5      104 /    2105  0.0494    +3.73        0.0000 |           0.0346  +0.01
+  6       32 /    1290  0.0248    -1.92        0.9725 |           0.0363  +1.02
+  7       30 /     731  0.0410    +0.96        0.1865 |           0.0345  -0.06
+  8       10 /     388  0.0258    -0.95        0.8725 |           0.0341  -0.29
+  9        5 /     201  0.0249    -0.75        0.8155 |           0.0359  +0.85
+ 10        2 /      92  0.0217    -0.67        0.8160 |           0.0342  -0.20
+
+lag 5 by word length (unsolved):
+   length  6: 256 words,   9/ 256 same = 0.0352 (expected 0.0346, z +0.05)
+   length  7: 216 words,  19/ 432 same = 0.0440 (expected 0.0346, z +1.07)
+   length  8: 156 words,  22/ 468 same = 0.0470 (expected 0.0346, z +1.48)
+   length  9:  78 words,  15/ 312 same = 0.0481 (expected 0.0346, z +1.31)
+   length 10:  52 words,  20/ 260 same = 0.0769 (expected 0.0346, z +3.74)
+   length 11:  32 words,   8/ 192 same = 0.0417 (expected 0.0346, z +0.54)
+   length 12:  18 words,   6/ 126 same = 0.0476 (expected 0.0346, z +0.80)
+   length 13:   4 words,   3/  32 same = 0.0938 (expected 0.0346, z +1.83)
+
+solved plaintext: lag1 0.0237, lag2 0.0406, lag3 0.0524, lag4 0.0568, lag5 0.0764, lag6 0.0553, lag7 0.0853  (expected 0.0617)
+
+solved ciphertext: lag1 0.0237, lag2 0.0413, lag3 0.0474, lag4 0.0505, lag5 0.0567, lag6 0.0511, lag7 0.0775  (expected 0.0400)

@@ -1,0 +1,50 @@
+expected rate 0.0346
+(1) lag-5 within words by part:
+   segment 7          7/ 135 = 0.0519  z +1.10
+   segment 8          5/ 183 = 0.0273  z -0.54
+   segment 9         18/ 291 = 0.0619  z +2.55
+   segment 11        18/ 295 = 0.0610  z +2.49
+   segment 12         8/ 168 = 0.0476  z +0.93
+   segment 13         9/ 241 = 0.0373  z +0.24
+   segment 14        13/ 250 = 0.0520  z +1.51
+   segment 15        26/ 542 = 0.0480  z +1.71
+   LP1 pages <=57    83/1675 = 0.0496  z +3.36
+   LP2 pages >=58    21/ 430 = 0.0488  z +1.62
+(2) by position of the pair in the word:
+   runes 0-5:  36/ 815 = 0.0442  z +1.50
+   runes 1-6:  27/ 559 = 0.0483  z +1.78
+   runes 2-7:  18/ 343 = 0.0525  z +1.82
+   runes 3-8:  11/ 187 = 0.0588  z +1.82
+   runes 4-9:   7/ 109 = 0.0642  z +1.70
+   runes 5-10:   2/  57 = 0.0351  z +0.02
+(3) words with 2+ lag-5 matches:
+   3 matches, 10 runes, p51  ᛈᛟᛄᚪᛝᛈᚦᛈᚪᛝ  P-OE-J-A-NG-P-TH-P-A-NG
+   3 matches,  8 runes, p66  ᛋᛞᛝᚷᛚᛋᛞᛝ  S-D-NG-G-L-S-D-NG
+   2 matches, 12 runes, p37  ᚹᛒᛗᚱᚾᛗᚻᛗᛁᚾᚪᛞ  W-B-M-R-N-M-H-M-I-N-A-D
+   2 matches, 11 runes, p24  ᚹᛡᛠᚱᚫᚹᛡᛞᚪᚦᚳ  W-IA-EA-R-AE-W-IA-D-A-TH-C
+   2 matches, 10 runes, p54  ᚢᛈᛋᚦᛁᚳᛈᛋᛁᚹ  U-P-S-TH-I-C-P-S-I-W
+   2 matches, 10 runes, p42  ᚾᚪᛠᚩᚪᚾᚪᚦᚷᚩ  N-A-EA-O-A-N-A-TH-G-O
+   2 matches,  8 runes, p41  ᛠᚣᛈᛟᚦᛋᚣᛈ  EA-Y-P-OE-TH-S-Y-P
+   2 matches,  8 runes, p24  ᛝᛈᚩᚪᚣᛝᛈᛋ  NG-P-O-A-Y-NG-P-S
+   2 matches,  7 runes, p70  ᛖᛋᛇᚦᚦᛖᛋ  E-S-EO-TH-TH-E-S
+   observed 9 words, expected 3.1
+(4) runes involved in lag-5 matches:
+    [('S', 11), ('A', 7), ('NG', 7), ('P', 7), ('N', 6), ('IA', 5), ('EA', 5), ('TH', 5), ('E', 5), ('B', 4), ('OE', 4), ('F', 3), ('G', 3), ('U', 3), ('J', 3), ('I', 3), ('D', 3), ('C', 2), ('EO', 2), ('R', 2), ('X', 2), ('L', 2), ('AE', 2), ('M', 2), ('Y', 2), ('O', 2), ('W', 1), ('H', 1)]
+(5) English within-word lag-5 repeat rate (Blake):
+   LP spelling: 0.0506 (its own frequency expectation 0.0599, ratio 0.85); unsolved ratio 1.43
+   letter by letter: 0.0556 (its own frequency expectation 0.0663, ratio 0.84); unsolved ratio 1.43
+(6) within-word same-value rate, raw vs autokey-removed (both members inside one word):
+   lag  1: raw 0.0063 (z -15.54) | autokey-removed 0.0351 (z -0.15, expected 0.0354)
+   lag  2: raw 0.0348 (z +0.10) | autokey-removed 0.0337 (z -0.78, expected 0.0354)
+   lag  3: raw 0.0371 (z +0.96) | autokey-removed 0.0361 (z +0.26, expected 0.0354)
+   lag  4: raw 0.0405 (z +1.84) | autokey-removed 0.0321 (z -1.00, expected 0.0354)
+   lag  5: raw 0.0494 (z +3.73) | autokey-removed 0.0442 (z +2.19, expected 0.0354)
+   lag  6: raw 0.0248 (z -1.92) | autokey-removed 0.0334 (z -0.40, expected 0.0354)
+   lag  7: raw 0.0410 (z +0.96) | autokey-removed 0.0479 (z +1.83, expected 0.0354)
+   lag  8: raw 0.0258 (z -0.95) | autokey-removed 0.0335 (z -0.20, expected 0.0354)
+   lag  9: raw 0.0249 (z -0.75) | autokey-removed 0.0299 (z -0.43, expected 0.0354)
+   lag 10: raw 0.0217 (z -0.67) | autokey-removed 0.0543 (z +0.98, expected 0.0354)
+(7) same rune at matching in-word position (mod 5) in two different words:
+   adjacent words, same clause  same index mod 5: 0.0361 (z +0.93, n 12392) | other indices: 0.0322 (z -2.67)
+   same clause, not adjacent    same index mod 5: 0.0348 (z +0.72, n 195240) | other indices: 0.0343 (z -1.25)
+   different clauses (random)   same index mod 5: 0.0338 (z -1.29, n 89390) | other indices: 0.0349 (z +0.94)

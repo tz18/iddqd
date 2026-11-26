@@ -268,3 +268,13 @@ by the running-key check: for up to 24 placements per crib, the implied key (k =
 autokey-removed stream) scored for English-likeness with Blake rune-pair models. Control: the same cribs and search on 20
 fake ciphertexts per clause. 54 clauses had cribs; 2 with p <= 0.05 (2.7 expected); Fisher combined p 0.96. No crib
 reveals an English running key. Top cribs per clause are listed in results/crib_clauses_top.md.
+
+## within_word_lags.py, lag5_followup.py (results/within_word_lags.txt, results/lag5_followup.txt)
+"5-lets": runes 5 apart inside one word are equal 104/2105 = 4.94% vs 3.46% expected (z +3.7; 0 of 2000 shuffles reach
+it). Lags 2-10 otherwise at chance (lag 4 z +1.8, lag 6 z -1.9); lag 5 ACROSS word gaps 3.46% (z 0.0). Present in LP1
+(z 3.4) and LP2 (same rate, z 1.6), 7 of 8 sections above expectation, evenly over in-word positions; 9 words carry 2+
+lag-5 matches (3.1 expected), e.g. S-D-NG-G-L-S-D-NG (p66), P-OE-J-A-NG-P-TH-P-A-NG (p51). Stronger in the raw
+ciphertext (z 3.7) than after autokey removal (z 2.2). English has NO lag-5 excess (0.85x its frequency baseline) but its
+absolute within-word lag-5 rate is 5.1% (LP spelling) / 5.6% (letter by letter) - what a key repeating every 5 runes
+inside a word would pass through. Same index mod 5 in DIFFERENT words (adjacent, same clause, other clauses): baseline,
+so any such 5-cycle key is not shared between words. Does not explain the lag-1 doublet deficit.
