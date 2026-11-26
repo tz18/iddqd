@@ -285,3 +285,8 @@ itself (3.73). In 1000 shuffles keeping word lengths and the doublet deficit, th
 99th 3.80: search-adjusted p = 0.014. Words with >= 3 matches at one lag (any lag >= 2): 3 real (p20 EO-D-EO-NG-EO-NG
 at lag 2; p51 and p66 at lag 5) vs 1.5 expected (p 0.19), so the chunky words are not unusual on their own once any
 lag is allowed; two of the three being at lag 5 is consistent with the lag-5 excess rather than extra evidence.
+
+## dots_graphic.py (results/dots_graphic.txt)
+The 5-dot graphic is one point set on three pages: page 24 (unsolved), page 40 (unsolved, exact top-bottom mirror of the
+page: y24 + y40 = 3674 for every dot) and page 73 (Parable, exact left-right mirror: x24 + x73 = 2400-2401, shifted up
+420 px). Same pairwise distances on all three (198, 204, 240, 318, 428, 489, 554, 583, 682, 750 px; dots 70 px wide).
