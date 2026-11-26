@@ -307,3 +307,10 @@ dictionary that excludes it. Solved LP plaintext vs Blake dictionary: 72% of its
 word. Unsolved: 0.01 per word (209 vs 206 +/- 6), at most ~0.03 at 2 sd. So a per-word period-5 shift/Beaufort key
 survives only if under roughly 4-5% of the plaintext's long words are in the Blake+LP vocabulary (in either spelling),
 or the spelling/alphabet differs from both tested.
+
+## clause_composition.py (results/clause_composition.txt)
+Within- vs across-clause reordering, tested on clause composition (order-free). Spread of clause mean word length
+(1 = random grouping): Blake sentences 1.21-1.28 (z +7 to +9 with 2000 sentences), solved LP 0.90 (77 clauses, no
+signal), unsolved 1.12 (156 clauses, z +1.1 vs random; a Blake-sized effect would be ~1.25, about z -1.2 from that):
+inconclusive. Short-word dispersion is not consistent even across English spellings. Consecutive clause means: Blake +0.31
+(topic persistence), solved LP +0.04, unsolved -0.03. The data cannot tell within-clause from across-clause reordering.

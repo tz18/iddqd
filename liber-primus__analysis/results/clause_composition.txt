@@ -1,0 +1,5 @@
+text                                 clauses |   mean-length spread |  short-word dispersion |   8+ clauses w/o short |   lag1 of clause means
+LP unsolved                              156 |      1.120 (z  +1.1) |        0.815 (z  -1.6) |        0.053 (z  +0.3) |       -0.030 (z  -0.3)
+LP solved plaintext                       77 |      0.897 (z  -0.6) |        0.942 (z  -0.3) |        0.024 (z  -0.2) |       +0.044 (z  +0.5)
+Blake sentences, LP spelling            2000 |      1.212 (z  +6.9) |        0.900 (z  -3.2) |        0.008 (z  +0.4) |       +0.310 (z +12.1)
+Blake sentences, letter by letter       2000 |      1.277 (z  +8.9) |        1.084 (z  +2.7) |        0.015 (z  -0.5) |       +0.318 (z +12.5)
