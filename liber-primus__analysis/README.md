@@ -278,3 +278,10 @@ ciphertext (z 3.7) than after autokey removal (z 2.2). English has NO lag-5 exce
 absolute within-word lag-5 rate is 5.1% (LP spelling) / 5.6% (letter by letter) - what a key repeating every 5 runes
 inside a word would pass through. Same index mod 5 in DIFFERENT words (adjacent, same clause, other clauses): baseline,
 so any such 5-cycle key is not shared between words. Does not explain the lag-1 doublet deficit.
+
+## lag5_search_null.py (results/lag5_search_null.txt)
+Search-adjusted check: largest |z| over lags 2-30 x (inside words, across gaps, all pairs) is the within-word lag 5
+itself (3.73). In 1000 shuffles keeping word lengths and the doublet deficit, the search maximum has 95th percentile 3.32,
+99th 3.80: search-adjusted p = 0.014. Words with >= 3 matches at one lag (any lag >= 2): 3 real (p20 EO-D-EO-NG-EO-NG
+at lag 2; p51 and p66 at lag 5) vs 1.5 expected (p 0.19), so the chunky words are not unusual on their own once any
+lag is allowed; two of the three being at lag 5 is consistent with the lag-5 excess rather than extra evidence.

@@ -1,0 +1,7 @@
+(1) within-word lag 5: z 3.73. Largest |z| over the whole search in the real text: 3.73
+    null (1000 shuffles keeping word lengths and the doublet deficit): max |z| mean 2.47, 95th pct 3.32, 99th 3.80
+    search-adjusted p for z 3.73: 0.014
+(2) words with >= 3 matches at a single lag (any lag >= 2): real 3; null mean 1.51, p(>= real) 0.191
+    page 20: lag 2, 3 matches, ᛇᛞᛇᛝᛇᛝ  EO-D-EO-NG-EO-NG
+    page 51: lag 5, 3 matches, ᛈᛟᛄᚪᛝᛈᚦᛈᚪᛝ  P-OE-J-A-NG-P-TH-P-A-NG
+    page 66: lag 5, 3 matches, ᛋᛞᛝᚷᛚᛋᛞᛝ  S-D-NG-G-L-S-D-NG
