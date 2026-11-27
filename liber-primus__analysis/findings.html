@@ -1,0 +1,153 @@
+<title>Unsolved Liber Primus Findings</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+Runic&family=Fraunces:opsz,wght@9..144,600&display=swap">
+<style>
+/* Layout: one reading column; positive findings ranked by strength, then negative results, then context */
+:root {
+  --bg: #f6f5f1; --surface: #ffffff; --fg: #1e1d1a; --muted: #5f5c55; --line: #dcd8cf;
+  --accent: #8a4b16; --accent-soft: #f1e3d3;
+  --s1: #1f5c3a; --s2: #3d6f8a; --s3: #8a6d1f; --neg: #8a2c22;
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --font-rune: "Noto Sans Runic", "Segoe UI Historic", serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #171614; --surface: #201f1c; --fg: #ebe8e1; --muted: #a8a399; --line: #3a3833;
+    --accent: #e0a06a; --accent-soft: #3a2a1c; --s1: #7cc08a; --s2: #8cc0de; --s3: #e0c46a; --neg: #ee8a7f; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #171614; --surface: #201f1c; --fg: #ebe8e1; --muted: #a8a399; --line: #3a3833;
+  --accent: #e0a06a; --accent-soft: #3a2a1c; --s1: #7cc08a; --s2: #8cc0de; --s3: #e0c46a; --neg: #ee8a7f; color-scheme: dark;
+}
+body {
+  background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 16px; line-height: 1.55;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 40px 64px;
+}
+main { max-width: 860px; margin: 0 auto; display: flex; flex-direction: column; gap: 36px; }
+header { display: flex; flex-direction: column; gap: 10px; border-bottom: 1px solid var(--line); padding-bottom: 24px; }
+.eyebrow { font-family: var(--font-mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+h1 { font-family: var(--font-display); font-weight: 600; font-size: clamp(30px, 6vw, 42px); line-height: 1.1; margin: 0; text-wrap: balance; }
+h2 { font-family: var(--font-display); font-weight: 600; font-size: 24px; margin: 0; text-wrap: balance; }
+h3 { font-size: 15px; font-weight: 600; margin: 0; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+p { margin: 0; max-width: 68ch; }
+.lede { color: var(--muted); font-size: 17px; }
+section { display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+.group { display: flex; flex-direction: column; gap: 10px; }
+.table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: 14px; font-variant-numeric: tabular-nums; }
+th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-size: 12px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); font-weight: 500; white-space: nowrap; }
+tr:last-child td { border-bottom: 0; }
+td.sig { font-family: var(--font-mono); font-size: 13px; white-space: nowrap; }
+td.n { font-family: var(--font-mono); color: var(--muted); width: 2ch; }
+.tag { font-family: var(--font-mono); font-size: 11px; padding: 1px 7px; border-radius: 10px; white-space: nowrap; border: 1px solid currentColor; }
+.t1 { color: var(--s1); } .t2 { color: var(--s2); } .t3 { color: var(--s3); } .tn { color: var(--neg); }
+.rune { font-family: var(--font-rune); }
+code, .mono { font-family: var(--font-mono); font-size: .9em; }
+ul { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; }
+li { max-width: 72ch; }
+.note { font-size: 14px; color: var(--muted); }
+footer { border-top: 1px solid var(--line); padding-top: 18px; font-size: 14px; color: var(--muted); display: flex; flex-direction: column; gap: 6px; }
+</style>
+
+<main>
+  <header>
+    <div class="eyebrow">Liber Primus · unsolved pages (sections 7–15, 12,956 runes, 2,896 words) · running list</div>
+    <h1>Unsolved Liber Primus findings</h1>
+    <p class="lede">What the statistics say about the unsolved pages, with positive findings ranked by strength and negative results kept separate. Significance is against the matching null for each test; where a test was picked after looking at the data, the search-adjusted figure is given.</p>
+    <p class="note">Last updated 2026-11-27.</p>
+  </header>
+
+  <section>
+    <h2>Positive findings</h2>
+
+    <div class="group">
+      <h3><span class="tag t1">very strong</span></h3>
+      <div class="table-wrap"><table>
+        <thead><tr><th></th><th>Finding</th><th>Measure</th><th>Significance</th></tr></thead>
+        <tbody>
+          <tr><td class="n">1</td><td><strong>Too few doublets.</strong> A rune rarely repeats its neighbour; every other rune-to-rune transition is uniform. Holds inside words and across word gaps.</td><td>86 vs ~447 expected (0.66% vs 3.45%); inside words 0.63%, across gaps 0.81%</td><td class="sig">≈ −17σ</td></tr>
+          <tr><td class="n">2</td><td><strong>Flat rune frequencies.</strong> Each rune near 1/29, far from English.</td><td>Mean GP value per rune 51.6 ± 0.3 vs 44.7 in solved plaintext</td><td class="sig">z ≈ 10</td></tr>
+          <tr><td class="n">3</td><td><strong>Word-length mix unlike English in LP spelling, like English spelled letter by letter</strong> (THE as T-H-E).</td><td>2-rune words 15.5% vs 24–26% (LP spelling) and 16.0% (letter by letter)</td><td class="sig">≈ 13 SE from LP spelling</td></tr>
+          <tr><td class="n">4</td><td><strong>No word-length rhythm.</strong> Neighbouring word lengths are uncorrelated; clause-final words are not long.</td><td>Lag-1 −0.015 vs −0.13 (English), −0.09 (solved LP); last word 4.2 vs 5.2–5.5 runes; mutual information at shuffled level</td><td class="sig">≈ 6σ vs English, 4σ vs solved LP</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+
+    <div class="group">
+      <h3><span class="tag t2">strong</span></h3>
+      <div class="table-wrap"><table>
+        <thead><tr><th></th><th>Finding</th><th>Measure</th><th>Significance</th></tr></thead>
+        <tbody>
+          <tr><td class="n">5</td><td><strong>Period 13 on pages 69–70</strong> (unsolved-folder 54–55). Local only; no period up to 100 anywhere else.</td><td>Column IoC at period 13</td><td class="sig">z 4.05 (p 0.0002) pages chosen in advance; p ≈ 0.011 over all page pairs</td></tr>
+          <tr><td class="n">6</td><td><strong>Short clauses have prime GP sums.</strong> Mirrors the solved plaintext, where short maxims are prime 39 of 59 times. Holds for cutoffs 25–50 runes, in LP1 and LP2; not parity.</td><td>18 of 54 clauses ≤ 31 runes vs 8.3 expected</td><td class="sig">z 3.7 (p 0.0008); adjusted p ≈ 0.005–0.01</td></tr>
+          <tr><td class="n">7</td><td><strong>Repeats at distance 5 inside words.</strong> Only inside words (across gaps exactly at baseline). Size equals English's own within-word distance-5 rate, as a per-word key repeating every 5 would leak.</td><td>4.94% vs 3.46%</td><td class="sig">z 3.7; search-adjusted p ≈ 0.014</td></tr>
+          <tr><td class="n">8</td><td><strong>Clause breaks look like sentence ends.</strong> Clause lengths match English sentences; almost no one-word clauses.</td><td>2 one-word clauses vs 9.7 for random breaks; KS vs Blake sentences p 0.47</td><td class="sig">p ≈ 0.004</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+
+    <div class="group">
+      <h3><span class="tag t3">moderate or suggestive</span></h3>
+      <div class="table-wrap"><table>
+        <thead><tr><th></th><th>Finding</th><th>Measure</th><th>Significance</th></tr></thead>
+        <tbody>
+          <tr><td class="n">9</td><td><strong>DJU BEI</strong> <span class="rune">ᛞᛄᚢ ᛒᛖᛁ</span> repeated (p42 and p70); the second copy ends the unsolved text.</td><td>6-rune exact repeat</td><td class="sig">~1 in 7,000</td></tr>
+          <tr><td class="n">10</td><td><strong>No persistence between consecutive clause lengths.</strong> Cicada's solved text also lacks it, so weak.</td><td>Lag-1 −0.10 vs Blake +0.16</td><td class="sig">≈ 3.6σ vs Blake</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Negative results</h2>
+    <p>Tested and not found. Each item says what is ruled out and under which assumptions.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Hypothesis</th><th>Result</th></tr></thead>
+      <tbody>
+        <tr><td><strong>F skip rule</strong> (plaintext F left unencrypted, as on the solved pages)</td><td>Ruled out: 458 F's vs 648 predicted (≈ −8σ); uniform expectation 447 ± 21.</td></tr>
+        <tr><td><strong>Any skip rune</strong> (a plaintext rune passed through, above or below the autokey, any relabelling)</td><td>Ruled out for every rune above ~0.9% English frequency, by count; IA, J, X and EA also by word position. Only OE, AE, EO remain, too rare to matter (1–6 runes). Assumes English, LP spelling, real word breaks.</td></tr>
+        <tr><td><strong>Doublets as a skipped plaintext letter</strong></td><td>Ruled out: doublets sit at random word positions (χ² 1.9 vs random, 101 vs EA); no rune of ~0.66% frequency fits.</td></tr>
+        <tr><td><strong>GP-sum-preserving cipher</strong> (word or clause sums carried from English)</td><td>Ruled out: word sums lack English's concentration (14% vs 68–71% top-5 share for 2-rune words); mean GP 51.6 vs ~45.</td></tr>
+        <tr><td><strong>Periodic key</strong>, raw or after autokey removal</td><td>None up to period 100 (p 0.53 over the scan), any alphabet that keeps 0 fixed.</td></tr>
+        <tr><td><strong>Depth, boundary resets, 2D structure, repeated words</strong></td><td>None beyond DJU BEI.</td></tr>
+        <tr><td><strong>Rotated, 3D-stacked and acrostic readings; calculus transforms</strong></td><td>All 23 views at chance, except line-first runes (typesetting).</td></tr>
+        <tr><td><strong>Candidate key streams</strong> (primes, totients, π and irrationals, wisdom/folly, 560 files, 2017 signature, base-60 block, prime clauses)</td><td>All at random-key level under the full model and the key-bucket test.</td></tr>
+        <tr><td><strong>GP-sum codebook into Blake/Urizen</strong></td><td>Hit rate, word-pair rate and best English reading all at fake-text level.</td></tr>
+        <tr><td><strong>Running-key cribs</strong> (order-free, Blake/LP/signed-message phrases)</td><td>Chance (Fisher p 0.96).</td></tr>
+        <tr><td><strong>Fixed word rearrangements within clauses</strong> (reverse, rail fence, columnar, riffles, sorting)</td><td>None restores English word-length order.</td></tr>
+        <tr><td><strong>Per-word 5-cycle shift or Beaufort key</strong></td><td>Rejected only if the plaintext's long words are mostly in a Blake/LP vocabulary (dictionary grind finds 0.01 extra matches per word; the method gives 0.45–0.55 on known text). Survives for unusual vocabulary or keyed tables.</td></tr>
+        <tr><td><strong>Within- vs across-clause word reordering</strong></td><td>Inconclusive: clause makeup 1.12, between random (1.00) and Blake-like (~1.25).</td></tr>
+        <tr><td><strong>Verbatim quotation</strong> of Blake's Marriage of Heaven and Hell, solved LP or signed messages</td><td>Word-length windows at chance.</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section>
+    <h2>Descriptive</h2>
+    <ul>
+      <li>Four apostrophe words shaped like contractions (3+1 and 2+1) and nine quote marks, all omitted by the transcription.</li>
+      <li>The 5-dot figure: one point set on pages 24 and 40 (unsolved, flipped top to bottom) and 73 (Parable, flipped left to right).</li>
+      <li>The base-60 block on pages 64–66: 256 bytes, every value 0–255; no RSA structure with Cicada's keys.</li>
+      <li>The 31 unsolved clauses with prime ciphertext sums are listed in <span class="mono">results/prime_partitions.txt</span>.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Artifacts</h2>
+    <ul>
+      <li>Line-start runes are skewed (z 8.2) because wide glyphs (EA, M, D) wrap to the next line when a word is split. This is typesetting, not the cipher.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Scripts and outputs: <span class="mono">liber-primus__analysis/</span> on branch <span class="mono">ccr-d835359f-b3znjj</span> of tz18/iddqd; the README there describes each script.</p>
+    <p>Transcription: cicada-solvers master transcription. Rune values: Gematria Primus.</p>
+  </footer>
+</main>
