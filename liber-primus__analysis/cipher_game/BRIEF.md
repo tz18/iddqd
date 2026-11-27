@@ -12,7 +12,7 @@ All paths below are relative to `/home/user/iddqd/liber-primus__analysis/`.
 | Role | May read | Must not read | Writes |
 |---|---|---|---|
 | Cicada | everything | (nothing off-limits) | `cipher_game/secret/*`, `cipher_game/roundN/ciphertext.json`, `cipher_game/roundN/ciphertext.txt` |
-| Solver | this brief, `cipher_game/roundN/ciphertext.*`, the unsolved-page data and analysis scripts, earlier `cipher_game/round*/solver_methods.md` | `cipher_game/secret/`, `cipher_game/round*/cicada_*`, `cipher_game/round*/annoying_*`, git history or `git` commands of any kind | `cipher_game/roundN/solver_report.md`, `cipher_game/roundN/solver_methods.md` (methods only, never plaintext), and if it decrypts anything `cipher_game/roundN/solver_decryption.txt` |
+| Solver | this brief, `cipher_game/roundN/ciphertext.*` for the current round only, the unsolved-page data and analysis scripts, earlier rounds' `solver_methods.md` only | `cipher_game/secret/`; everything else in earlier round folders (ciphertexts, `solver_report.md`, `solver_decryption.txt`, `solver_scripts/`, `cicada_*`, `annoying_*`); git history or `git` commands of any kind | `cipher_game/roundN/solver_report.md`, `cipher_game/roundN/solver_methods.md` (methods only, never plaintext), and if it decrypts anything `cipher_game/roundN/solver_decryption.txt` |
 | Mr Annoying | everything, including `cipher_game/secret/` | (nothing off-limits) | `cipher_game/roundN/annoying_report.md` |
 
 Nobody commits or pushes. Nobody installs packages.
@@ -66,3 +66,7 @@ A cipher counts only if an intended solver could decrypt it with information Cic
 - complexity in proportion to the solved LP ciphers (atbash; Vigenere with the key DIVINITY and unencrypted F;
   a totient-of-primes stream);
 - the number of free parameters and the key size are stated and small.
+
+## Game log
+
+- Round 1: prime-multiplier + ciphertext autokey, letter-by-letter spelling. Broken blind by the Solver; Mr Annoying: acceptable with complaints.
